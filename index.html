@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>DreamBooth</title>
+<link href="./DreamBooth_files/style.css" rel="stylesheet">
+<script type="text/javascript" src="./DreamBooth_files/jquery.mlens-1.0.min.js"></script> 
+<script type="text/javascript" src="./DreamBooth_files/jquery.js"></script>
+</head>
+
+<body>
+<div class="content">
+  <!-- <h1><strong>GraPE: A Generate-Plan-Edit Framework for Compositional T2I Synthesis</strong></h1> -->
+  <h1 style="display: flex; align-items: vertical; gap: 0px;">
+    <img src="DreamBooth_files/grape2.png" alt="Logo" style="height: 40px; width: 40px;">
+    <strong>GraPE: A Generate-Plan-Edit Framework for Compositional T2I Synthesis</strong>
+</h1>
+  <p id="authors"><span><a href="https://alphacoder01.github.io/"></a></span><a href="https://alphacoder01.github.io/">Ashish Goswami</a><sup>1</sup> <a href="https://openreview.net/profile?id=~Satyam_Modi1">Satyam Modi</a><sup>1*</sup> <a href="https://openreview.net/profile?id=~Santhosh_Rishi_Deshineni1">Santhosh Rishi Deshineni</a><sup>1*</sup> <br><a href="https://harmandotpy.github.io/">Harman Singh</a><sup>2</sup> <a href="https://sites.google.com/view/prathosh">Prathosh A. P</a><sup>3</sup> <a href="https://www.cse.iitd.ac.in/~parags/index.html">Parag Singla</a><sup>1</sup><br>
+    <br>
+  <span style="font-size: 24px"><sup>1</sup> IIT Delhi&emsp;<sup>2</sup> Google DeepMind, India&emsp;<sup>3</sup> IISc Bangalore
+  </span></p>
+  <br>
+  <img src="./DreamBooth_files/Teaser_updated_with_new.png" class="teaser-gif" style="width:50%;"><br>
+  <h3 style="text-align:center"><em>ONE-Liner</em></h3>
+    <font size="+2">
+          <p style="text-align: center;">
+            <a href="" target="_blank">[Paper]</a> &nbsp;&nbsp;&nbsp;&nbsp;
+	          <a href="https://github.com/dair-iitd/GraPE" target="_blank">[Github]</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="DreamBooth_files/bibtex.txt" target="_blank">[BibTeX]</a>
+          </p>
+    </font>
+</div>
+<div class="content">
+  <h2 align="center"><strong>Abstract</strong></h2>
+  <p>Text-to-image (T2I) generation has seen significant progress with diffusion models, enabling generation of photo-realistic images from text prompts. Despite this progress, existing methods still face challenges in following complex text prompts, especially those requiring compositional and multi-step reasoning. Given such complex instructions, SOTA models often make mistakes in faithfully modeling object attributes, and relationships among them.</p>
+    <p>In this work, we present an alternate paradigm for T2I synthesis, decomposing the task of complex multi-step generation into three steps, (a) <em>Generate</em>: we first generate an image using existing diffusion models (b) <em>Plan</em>: we make use of Multi-Modal LLMs (MLLMs) to identify the mistakes in the generated image expressed in terms of individual objects and their properties, and produce a sequence of corrective steps required in the form of an <em>edit-plan</em>. (c) <em>Edit</em>: we make use of an existing text-guided image editing models to sequentially execute our edit-plan over the generated image to get the desired image which is faithful to the original instruction. Our approach derives its strength from the fact that it is modular in nature, is training free, and can be applied over any combination of image generation and editing models. As an added contribution, we also develop a model capable of compositional editing, which further helps improve the overall accuracy of our proposed approach. Our method flexibly trades inference time compute with performance on compositional text prompts. We perform extensive experimental evaluation across 3 benchmarks and 10 T2I models including DALLE-3 and the latest -- SD-3.5-Large. Our approach not only improves the performance of the SOTA models, by upto 3 points, it also reduces the performance gap between weaker and stronger models.</p>
+</div>
+
+<div class="content">
+  <h2 align="center"><strong>GraPE Framework</strong></h2>
+  <p> Our method takes as input a few images (typically 3-5 images suffice, based on our experiments) of a subject (e.g., a specific dog) and the corresponding class name (e.g. "dog"), and returns a fine-tuned/"personalized'' text-to-image model that encodes a unique identifier that refers to the subject. Then, at inference, we can implant the unique identifier in different sentences to synthesize the subjects in difference contexts.</p>
+  <!-- <br> -->
+  <img class="summary-img" src="DreamBooth_files/cvpr_pipeline_15_nov.drawio.png" style="width:80%;"> <br>
+  <p>Given ~3-5 images of a subject we fine tune a text-to-image diffusion in two steps: (a) fine tuning the low-resolution text-to-image model with the input images paired with a text prompt containing a unique identifier and the name of the class the subject belongs to (e.g., "A photo of a [T] dog”), in parallel, we apply a class-specific prior preservation loss, which leverages the semantic prior that the model has on the class and encourages it to generate diverse instances belong to the subject's class by injecting the class name in the text prompt (e.g., "A photo of a dog”). (b) fine-tuning the super resolution components with pairs of low-resolution and high-resolution images taken from our input images set, which enables us to maintain high-fidelity to small details of the subject.</p>
+  <br>
+</div>
+<div class="content">
+  <h2 align="center"><strong>Results</strong></h2>
+  <p>Results for re-contextualization of a bag and vase subject instances. By finetuning a model using our method we are able to generate different images of the a subject instance in different environments, with high preservation of subject details and realistic interaction between the scene and the subject. We display the conditioning prompts below each image. </p>
+<img class="summary-img" src="./DreamBooth_files/examples.png" style="width:80%;">
+<br>
+<br>
+<img class="summary-img" src="./DreamBooth_files/graphs_t2i_flickr.png" style="width:100%;">
+</div>
+<div class="content">
+  <h2 align="center"><strong>Numbers</strong></h2>
+  <p>Original artistic renditions of our subject dog in the style of famous painters. We remark that many of the generated poses were not seen in the training set, such as the Van Gogh and Warhol rendition. We also note that some renditions seem to have novel composition and faithfully imitate the style of the painter - even suggesting some sort of creativity (extrapolation given previous knowledge).</p>
+  <br>
+  <img class="summary-img" src="./DreamBooth_files/concept_mix_table.png" style="width:100%;"> <br>
+</div>
+<div class="content">
+  <h2 align="center"><strong>Failure Cases</strong></h2>
+  <p>Our technique can synthesized images with specified viewpoints for a subject cat (left to right: top, bottom, side and back views). Note that the generated poses are  different from the input poses, and the background changes in a realistic manner given a pose change. We also highlight the preservation of complex fur patterns on the subject cat's forehead.</p>
+  <br>
+  <img class="summary-img" src="./DreamBooth_files/failure_cases.png" style="width:80%;"> <br>
+</div>
+
+<div class="content">
+  <h2>BibTex</h2>
+  <code> @article{ruiz2022dreambooth,<br>
+  &nbsp;&nbsp;title={DreamBooth: Fine Tuning Text-to-image Diffusion Models for Subject-Driven Generation},<br>
+  &nbsp;&nbsp;author={Ruiz, Nataniel and Li, Yuanzhen and Jampani, Varun and Pritch, Yael and Rubinstein, Michael and Aberman, Kfir},<br>
+  &nbsp;&nbsp;booktitle={arXiv preprint arxiv:2208.12242},<br>
+  &nbsp;&nbsp;year={2022}<br>
+  } </code> 
+</div>
+<div class="content" id="acknowledgements">
+  <p><strong>Acknowledgements</strong>:
+    <br>
+    Recycling a familiar <a href="https://dreambooth.github.io/">template</a> ;) 
+  </p>
+</div>
+</body>
+</html>
