@@ -9,10 +9,11 @@ class EDIT:
 
         self.editor = Editor(ckpt_path=ckpt_path)
 
-    def edit(self, input_image, plans):
+    def edit(self, input_image, plans, seed=0):
         intermediate_images = []
         for plan in plans:
-            input_image = self.editor.edit_image(input_image, plan)
+            print(plan)
+            input_image = self.editor.edit_image(input_image, plan, seed=seed)
             intermediate_images.append(input_image)
         return input_image, intermediate_images
 

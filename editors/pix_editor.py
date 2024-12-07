@@ -1,13 +1,10 @@
 from pathlib import Path
 import sys, os
 
-# current_file_path = Path(__file__).resolve()
-# ROOT = os.path.join(str(current_file_path.parent), 'PixEdit')
-# sys.path.insert(0, os.path.join(str(current_file_path.parent), 'PixEdit'))
-# print(os.path.join(str(current_file_path.parent), 'PixEdit'))
-
-sys.path.insert(0, '/home/scai/phd/aiz228170/scratch/PixEdit')
-ROOT = '/home/scai/phd/aiz228170/scratch/PixEdit'
+current_file_path = Path(__file__).resolve()
+ROOT = os.path.join(str(current_file_path.parent), 'PixEdit')
+sys.path.insert(0, os.path.join(str(current_file_path.parent), 'PixEdit'))
+print(os.path.join(str(current_file_path.parent), 'PixEdit'))
 
 
 
@@ -41,7 +38,6 @@ class Editor:
         CKPT_PATH = ckpt_path
         CONFIG_PATH = os.path.join(ROOT, 'configs/pixart_sigma_config/editing_at_512.py')
         PIPELINE_LOAD_PATH = os.path.join(ROOT, "output/pretrained_models/pixart_sigma_sdxlvae_T5_diffusers")
-        print(PIPELINE_LOAD_PATH)
 
         SD = torch.load(CKPT_PATH, 'cpu')
         CONFIG = read_config(CONFIG_PATH)
@@ -50,8 +46,8 @@ class Editor:
 
         CONFIG.seed = init_random_seed(CONFIG.get('seed', None))
         set_random_seed(CONFIG.seed)
+        
         self.config = CONFIG
-
 
         pixart_model = PixArtMS(depth=28, hidden_size=1152, patch_size=2, num_heads=16, in_channels=8, **kwargs)
 
@@ -71,13 +67,13 @@ class Editor:
         self.null_y = null_y['uncond_prompt_embeds'].to(device)
 
 
-    def edit_image(self, input_image, edit_instruction, text_guidance=4.5, img_guidance=1.5):
+    def edit_image(self, input_image, edit_instruction, text_guidance=4.5, img_guidance=1.5, seed=0):
         if isinstance(input_image, str):
             input_image = Image.open(input_image).convert('RGB').resize((512,512))
         else:
             input_image = input_image.resize((512,512))
 
-        set_random_seed(0)
+        set_random_seed(seed)
         latent_size = self.config.image_size//8
         device = "cuda"
         z = torch.randn(1, 4, latent_size, latent_size, device=device)
@@ -119,7 +115,6 @@ class Editor:
         samples = torch.clamp(127.5 * samples + 128.0, 0, 255).permute(0, 2, 3, 1).to("cpu", dtype=torch.uint8).numpy()[0]
         image = Image.fromarray(samples)
         return image
-
 
 if __name__ == "__main__":
     ImgEditor = Editor("/home/scai/phd/aiz228170/scratch/Generate-then-Edit/PixArt-sigma/output/aurora_ft_ep_40_seed_real_only_40_more_from_ep_40_bs_256_grad_clip_0_5_ip2p_concat/")

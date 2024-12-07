@@ -5,3 +5,5 @@ TEST/
 *.pyc
 *.pyo
 *.pyd
+
+editors/PixEdit
