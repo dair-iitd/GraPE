@@ -1,0 +1,3518 @@
+[
+    {
+        "index": 1,
+        "sentence": "A huge bee hovers in an impressionist-style painting. Below the bee, without touching it, there are three huge, heart-shaped sushis. A flower is also present in the scene.",
+        "categories": [
+            "object",
+            "object",
+            "size",
+            "style",
+            "shape",
+            "size",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "bee",
+            "sushi",
+            "huge",
+            "impressionism",
+            "heart",
+            "huge",
+            "3",
+            "below"
+        ],
+        "question": [
+            "Does the image contain a bee?  ",
+            "Does the image contain sushi?  ",
+            "Is the sushi huge?  ",
+            "Is the style of the image impressionism?  ",
+            "Is the sushi heart shaped?  ",
+            "Is the bee huge?  ",
+            "Are there exactly 3 sushis?  ",
+            "Is the sushi below the bee without touching it?"
+        ]
+    },
+    {
+        "index": 2,
+        "sentence": "In a surreal landscape, there are three broccolis positioned next to each other. Nearby, three trucks are parked in a row. On the side, a square-shaped sheep with a metallic texture stands out against the scene.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "number",
+            "number",
+            "style",
+            "texture",
+            "shape"
+        ],
+        "skills": [
+            "broccoli",
+            "sheep",
+            "truck",
+            "3",
+            "3",
+            "surrealism",
+            "metallic",
+            "square"
+        ],
+        "question": [
+            "Does the image contain broccoli?",
+            "",
+            "Does the image contain sheep?",
+            "",
+            "Does the image contain trucks?",
+            "",
+            "Does the image contain exactly 3 broccolis?",
+            "",
+            "Does the image contain exactly 3 trucks?",
+            "",
+            "Is the style of the image surrealism?",
+            "",
+            "Does the sheep have a metallic texture?",
+            "",
+            "Is the sheep square-shaped?"
+        ]
+    },
+    {
+        "index": 3,
+        "sentence": "A tiny gray dog sits next to a heart-shaped novel, while two cats sit nearby. An elephant is also present in the pixel art scene.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "shape",
+            "color",
+            "style",
+            "size",
+            "number"
+        ],
+        "skills": [
+            "dog",
+            "cat",
+            "novel",
+            "heart",
+            "gray",
+            "pixel art",
+            "tiny",
+            "2"
+        ],
+        "question": [
+            "Does the image contain a dog?  ",
+            "Does the image contain a cat?  ",
+            "Does the image contain a novel?  ",
+            "Is the novel heart-shaped?  ",
+            "Is the dog gray?  ",
+            "Is the style of the image pixel art?  ",
+            "Is the dog tiny?  ",
+            "Are there exactly 2 cats?"
+        ]
+    },
+    {
+        "index": 4,
+        "sentence": "In the image, there is a cow in the foreground. Behind the cow, a dog is visible, positioned farther from the observer or camera. A tiny, square-shaped, white spider with a metallic texture is also present.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "texture",
+            "shape",
+            "color",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "cow",
+            "spider",
+            "dog",
+            "metallic",
+            "square",
+            "white",
+            "tiny",
+            "behind"
+        ],
+        "question": [
+            "Does the image contain a cow?",
+            "Does the image contain a spider?",
+            "Does the image contain a dog?",
+            "Does the spider have a metallic texture?",
+            "Is the spider square-shaped?",
+            "Is the spider white in color?",
+            "Is the spider tiny in size?",
+            "Is the dog behind the cow?"
+        ]
+    },
+    {
+        "index": 5,
+        "sentence": "On a fluffy-textured hill, there is a white cow. A tiny, metallic, pink car is parked next to the hill. Nearby, a human is standing.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "size",
+            "texture",
+            "texture",
+            "color",
+            "color"
+        ],
+        "skills": [
+            "car",
+            "hill",
+            "cow",
+            "tiny",
+            "metallic",
+            "fluffy",
+            "pink",
+            "white"
+        ],
+        "question": [
+            "Does the image contain a car?",
+            "Does the image contain a hill?",
+            "Does the image contain a cow?",
+            "Does the car have a tiny size?",
+            "Does the car have a metallic texture?",
+            "Does the hill have a fluffy texture?",
+            "Is the car pink?",
+            "Is the cow white?"
+        ]
+    },
+    {
+        "index": 6,
+        "sentence": "The image shows a tiny red carrot positioned in front of a green teddy bear, with a cactus visible in the scene. The style of the image is pixel art.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "color",
+            "style",
+            "size",
+            "color",
+            "spatial"
+        ],
+        "skills": [
+            "carrot",
+            "teddy bear",
+            "cactus",
+            "red",
+            "pixel art",
+            "tiny",
+            "green",
+            "in front of"
+        ],
+        "question": [
+            "Does the image contain a carrot?  ",
+            "Does the image contain a teddy bear?  ",
+            "Does the image contain a cactus?  ",
+            "Is the carrot red?  ",
+            "Is the style of the image pixel art?  ",
+            "Is the carrot tiny in size?  ",
+            "Is the teddy bear green?  ",
+            "Is the carrot in front of the teddy bear?"
+        ]
+    },
+    {
+        "index": 7,
+        "sentence": "The caption makes sense in a very loose sense where the shape can be abstracted or simplified.\n\nAn abstract cartoon-style image features a pink cactus, a metallic-textured lion in the shape of a triangle, and a skyscraper.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "shape",
+            "style",
+            "style",
+            "color",
+            "texture"
+        ],
+        "skills": [
+            "cactus",
+            "lion",
+            "skyscraper",
+            "triangle",
+            "cartoon",
+            "abstract",
+            "pink",
+            "metallic"
+        ],
+        "question": [
+            "Does the image contain a cactus?  ",
+            "Does the image contain a lion?  ",
+            "Does the image contain a skyscraper?  ",
+            "Is the lion in the shape of a triangle?  ",
+            "Is the style of the image cartoon?  ",
+            "Is the style of the image abstract?  ",
+            "Is the color of the cactus pink?  ",
+            "Does the lion have a metallic texture?"
+        ]
+    },
+    {
+        "index": 8,
+        "sentence": "The image is a watercolor painting featuring four huge, fluffy-textured, circle-shaped, yellow cactuses positioned on the left side of a rock.",
+        "categories": [
+            "object",
+            "size",
+            "texture",
+            "style",
+            "shape",
+            "number",
+            "color",
+            "spatial"
+        ],
+        "skills": [
+            "cactus",
+            "huge",
+            "fluffy",
+            "watercolor",
+            "circle",
+            "4",
+            "yellow",
+            "left"
+        ],
+        "question": [
+            "Does the image contain cactus?",
+            "Are the cactuses huge in size?",
+            "Do the cactuses have a fluffy texture?",
+            "Is the style of the image watercolor?",
+            "Are the cactuses circle shaped?",
+            "Are there exactly 4 cactuses?",
+            "Are the cactuses yellow in color?",
+            "Is the cactus positioned on the left side of the rock?"
+        ]
+    },
+    {
+        "index": 9,
+        "sentence": "In a sketch-style image, there is a square-shaped novel with a fluffy texture. Inside the boundaries of the novel, there is a square-shaped sunflower. A lion is also present in the scene.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "shape",
+            "shape",
+            "style",
+            "texture",
+            "spatial"
+        ],
+        "skills": [
+            "sunflower",
+            "novel",
+            "lion",
+            "square",
+            "square",
+            "sketch",
+            "fluffy",
+            "inside"
+        ],
+        "question": [
+            "Does the image contain a sunflower?  ",
+            "Does the image contain a novel?  ",
+            "Does the image contain a lion?  ",
+            "Is the novel square-shaped?  ",
+            "Is the sunflower square-shaped?  ",
+            "Is the style of the image a sketch?  ",
+            "Does the novel have a fluffy texture?  ",
+            "Is the sunflower inside the novel?"
+        ]
+    },
+    {
+        "index": 10,
+        "sentence": "The image shows a red highway positioned beyond the boundaries of three hills, each with a glass texture. In the foreground, there are exactly two roses.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "texture",
+            "number",
+            "number",
+            "color",
+            "spatial"
+        ],
+        "skills": [
+            "highway",
+            "rose",
+            "hill",
+            "glass",
+            "2",
+            "3",
+            "red",
+            "outside"
+        ],
+        "question": [
+            "Does the image contain a highway?  ",
+            "Does the image contain roses?  ",
+            "Does the image contain hills?  ",
+            "Do the hills have a glass texture?  ",
+            "Are there exactly 2 roses?  ",
+            "Are there exactly 3 hills?  ",
+            "Is the highway red?  ",
+            "Is the highway positioned beyond the boundaries of the hills?"
+        ]
+    },
+    {
+        "index": 11,
+        "sentence": "A huge yellow doll is positioned at the highest point of a pine tree, touching each other. Nearby, there is a cactus. A woman with a metallic texture is also present in the scene.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "color",
+            "texture",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "doll",
+            "pine tree",
+            "cactus",
+            "woman",
+            "yellow",
+            "metallic",
+            "huge",
+            "top"
+        ],
+        "question": [
+            "Does the image contain a doll?  ",
+            "Does the image contain a pine tree?  ",
+            "Does the image contain a cactus?  ",
+            "Does the image contain a woman?  ",
+            "Is the color of the doll yellow?  ",
+            "Does the woman have a metallic texture?  ",
+            "Is the doll huge in size?  ",
+            "Is the doll positioned at the highest point of the pine tree and touching it?"
+        ]
+    },
+    {
+        "index": 12,
+        "sentence": "The image displays a pop art scene featuring a man standing above two trucks, which do not touch him. An orange corgi is present in the scene, along with a piece of sushi.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "number",
+            "style",
+            "color",
+            "spatial"
+        ],
+        "skills": [
+            "truck",
+            "corgi",
+            "sushi",
+            "man",
+            "2",
+            "pop art",
+            "orange",
+            "below"
+        ],
+        "question": [
+            "Does the image contain one or more trucks?  ",
+            "Does the image contain one or more corgis?  ",
+            "Does the image contain one or more sushis?  ",
+            "Does the image contain one or more men?  ",
+            "Does the image contain exactly 2 trucks?  ",
+            "Is the style of the image pop art?  ",
+            "Is the color of the corgi orange?  ",
+            "Is the truck positioned below the man without touching it?"
+        ]
+    },
+    {
+        "index": 13,
+        "sentence": "In a manga-style image, there are two tiny, rectangle-shaped, blue, fluffy broccolis positioned in front of an apple.",
+        "categories": [
+            "object",
+            "style",
+            "shape",
+            "number",
+            "color",
+            "texture",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "broccoli",
+            "manga",
+            "rectangle",
+            "2",
+            "blue",
+            "fluffy",
+            "tiny",
+            "in front of"
+        ],
+        "question": [
+            "Does the image contain broccoli?",
+            "",
+            "Is the style of the image manga?",
+            "",
+            "Are the broccolis rectangle shaped?",
+            "",
+            "Are there exactly 2 broccolis?",
+            "",
+            "Are the broccolis blue?",
+            "",
+            "Do the broccolis have a fluffy texture?",
+            "",
+            "Are the broccolis tiny in size?",
+            "",
+            "Are the broccolis positioned in front of the apple?"
+        ]
+    },
+    {
+        "index": 14,
+        "sentence": "In the image, there is a purple rectangle-shaped table. On top of the table, there is a tiny pink pizza with a fluffy texture. Next to the table, there is a chair. The whole image is in a cartoon style.",
+        "categories": [
+            "object",
+            "object",
+            "texture",
+            "color",
+            "color",
+            "style",
+            "shape",
+            "size"
+        ],
+        "skills": [
+            "table",
+            "pizza",
+            "fluffy",
+            "pink",
+            "purple",
+            "cartoon",
+            "rectangle",
+            "tiny"
+        ],
+        "question": [
+            "Does the image contain a table?  ",
+            "Does the image contain a pizza?  ",
+            "Does the pizza have a fluffy texture?  ",
+            "Is the color of the pizza pink?  ",
+            "Is the color of the table purple?  ",
+            "Is the style of the image cartoon?  ",
+            "Is the table rectangle-shaped?  ",
+            "Is the pizza tiny in size?"
+        ]
+    },
+    {
+        "index": 15,
+        "sentence": "The image is in pixel art style and contains the following elements: a cactus, two tiny zebras, a sheep, and two sushis. The objects are all clearly distinguishable from each other.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "number",
+            "number",
+            "size",
+            "style"
+        ],
+        "skills": [
+            "cactus",
+            "zebra",
+            "sheep",
+            "sushi",
+            "2",
+            "2",
+            "tiny",
+            "pixel art"
+        ],
+        "question": [
+            "Does the image contain a cactus?",
+            "Does the image contain zebras?",
+            "Does the image contain a sheep?",
+            "Does the image contain sushis?",
+            "Does the image contain exactly 2 zebras?",
+            "Does the image contain exactly 2 sushis?",
+            "Are the zebras tiny in size?",
+            "Is the style of the image pixel art?"
+        ]
+    },
+    {
+        "index": 16,
+        "sentence": "The image shows two blue heart-shaped pine trees and a blue glass-textured car below a house.",
+        "categories": [
+            "object",
+            "object",
+            "color",
+            "color",
+            "number",
+            "shape",
+            "texture",
+            "spatial"
+        ],
+        "skills": [
+            "pine tree",
+            "car",
+            "blue",
+            "blue",
+            "2",
+            "heart",
+            "glass",
+            "below"
+        ],
+        "question": [
+            "Does the image contain pine trees?  ",
+            "Does the image contain cars?  ",
+            "Is the color of the pine trees blue?  ",
+            "Is the color of the car blue?  ",
+            "Is the number of pine trees exactly two?  ",
+            "Are the pine trees heart-shaped?  ",
+            "Does the car have a glass texture?  ",
+            "Is the car below the house?  "
+        ]
+    },
+    {
+        "index": 17,
+        "sentence": "An abstract image depicts a huge, triangle-shaped, purple necklace with a glass texture positioned in front of a volcano.",
+        "categories": [
+            "object",
+            "object",
+            "color",
+            "style",
+            "shape",
+            "size",
+            "texture",
+            "spatial"
+        ],
+        "skills": [
+            "volcano",
+            "necklace",
+            "purple",
+            "abstract",
+            "triangle",
+            "huge",
+            "glass",
+            "in front of"
+        ],
+        "question": [
+            "Does the image contain a volcano?  ",
+            "Does the image contain a necklace?  ",
+            "Is the necklace purple in color?  ",
+            "Is the style of the image abstract?  ",
+            "Is the necklace triangle-shaped?  ",
+            "Is the necklace huge?  ",
+            "Does the necklace have a glass texture?  ",
+            "Is the necklace positioned in front of the volcano?"
+        ]
+    },
+    {
+        "index": 18,
+        "sentence": "Two teddy bears with fluffy textures are positioned outside of a rectangle-shaped laptop. A fluffy-textured carrot is also present in the image.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "texture",
+            "shape",
+            "texture",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "teddy bear",
+            "laptop",
+            "carrot",
+            "fluffy",
+            "rectangle",
+            "fluffy",
+            "2",
+            "outside"
+        ],
+        "question": [
+            "Does the image contain one or more teddy bears?  ",
+            "Does the image contain one or more laptops?  ",
+            "Does the image contain one or more carrots?  ",
+            "Does the carrot have a fluffy texture?  ",
+            "Is the laptop rectangle-shaped?  ",
+            "Do the teddy bears have a fluffy texture?  ",
+            "Is the number of teddy bears exactly 2?  ",
+            "Is the teddy bear outside of the laptop?  "
+        ]
+    },
+    {
+        "index": 19,
+        "sentence": "The sketch-style image depicts a table with an orange positioned on its right side. There is also a smartphone with a fluffy texture placed on the table. A spoon is positioned outside the table, beyond its boundaries.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "style",
+            "texture",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "orange",
+            "table",
+            "smartphone",
+            "spoon",
+            "sketch",
+            "fluffy",
+            "right",
+            "outside"
+        ],
+        "question": [
+            "Does the image contain an orange?",
+            "Does the image contain a table?",
+            "Does the image contain a smartphone?",
+            "Does the image contain a spoon?",
+            "Is the style of the image a sketch?",
+            "Does the smartphone have a fluffy texture?",
+            "Is the orange positioned on the right side of the table?",
+            "Is the spoon outside of the table?"
+        ]
+    },
+    {
+        "index": 20,
+        "sentence": "Three fluffy elephants are positioned near a metallic house. Each elephant wears a necklace, totaling four necklaces among them. The scene is crafted in a surrealistic style.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "number",
+            "texture",
+            "style",
+            "number",
+            "texture"
+        ],
+        "skills": [
+            "elephant",
+            "house",
+            "necklace",
+            "4",
+            "fluffy",
+            "surrealism",
+            "3",
+            "metallic"
+        ],
+        "question": [
+            "Does the image contain elephants?",
+            "Does the image contain houses?",
+            "Does the image contain necklaces?",
+            "Are there exactly 4 necklaces in the image?",
+            "Does an elephant have a fluffy texture?",
+            "Is the style of the image surrealism?",
+            "Are there exactly 3 elephants in the image?",
+            "Does a house have a metallic texture?"
+        ]
+    },
+    {
+        "index": 21,
+        "sentence": "The image shows a tiny table with a red, glass-textured orange positioned below it without touching the table. Additionally, a blue sheep is positioned below the tiny table without touching it.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "color",
+            "texture",
+            "color",
+            "size",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "table",
+            "orange",
+            "sheep",
+            "blue",
+            "glass",
+            "red",
+            "tiny",
+            "below",
+            "below"
+        ],
+        "question": [
+            "Does the image contain a table?",
+            "",
+            "Does the image contain an orange?",
+            "",
+            "Does the image contain a sheep?",
+            "",
+            "Is the color of the sheep blue?",
+            "",
+            "Does the orange have a glass texture?",
+            "",
+            "Is the color of the orange red?",
+            "",
+            "Is the table tiny in size?",
+            "",
+            "Is the orange positioned below the table without touching it?",
+            "",
+            "Is the sheep positioned below the table without touching it?"
+        ]
+    },
+    {
+        "index": 22,
+        "sentence": "The manga-style image features one huge, square-shaped sheep. Next to the sheep, there is a white pig and a brown chicken. There is also another sheep present.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "size",
+            "color",
+            "style",
+            "color",
+            "shape"
+        ],
+        "skills": [
+            "pig",
+            "sheep",
+            "chicken",
+            "huge",
+            "white",
+            "manga",
+            "brown",
+            "square"
+        ],
+        "question": [
+            "Does the image contain a pig?  ",
+            "Does the image contain a sheep?  ",
+            "Does the image contain a chicken?  ",
+            "Is the sheep huge?  ",
+            "Is the pig white?  ",
+            "Is the style of the image manga?  ",
+            "Is the chicken brown?  ",
+            "Is the sheep square-shaped?"
+        ]
+    },
+    {
+        "index": 23,
+        "sentence": "The image, rendered in an expressionism style, features exactly two tiny, circle-shaped dirt roads with a fluffy texture. Both dirt roads are positioned to the left side of a hammer.",
+        "categories": [
+            "object",
+            "object",
+            "texture",
+            "shape",
+            "size",
+            "style",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "dirt road",
+            "hammer",
+            "fluffy",
+            "circle",
+            "tiny",
+            "expressionism",
+            "2",
+            "left"
+        ],
+        "question": [
+            "Does the image contain one or more dirt roads?",
+            "Does the image contain one or more hammers?",
+            "Do the dirt roads have a fluffy texture?",
+            "Are the dirt roads circle-shaped?",
+            "Are the dirt roads tiny in size?",
+            "Is the style of the image expressionism?",
+            "Is the number of dirt roads exactly 2?",
+            "Are the dirt roads positioned on the left side of the hammer?"
+        ]
+    },
+    {
+        "index": 24,
+        "sentence": "In an oil painting, there is a robot standing near a table. Four sushis are positioned below the table without touching it. A square-shaped spoon is placed on the table, next to a smartphone.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "shape",
+            "style",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "robot",
+            "sushi",
+            "spoon",
+            "smartphone",
+            "square",
+            "oil painting",
+            "4",
+            "below"
+        ],
+        "question": [
+            "Does the image contain robot?  ",
+            "Does the image contain sushi?  ",
+            "Does the image contain spoon?  ",
+            "Does the image contain smartphone?  ",
+            "Is the spoon square shaped?  ",
+            "Is the style of the image oil painting?  ",
+            "Is the number of sushis exactly 4?  ",
+            "Are the sushis below the table without touching it?"
+        ]
+    },
+    {
+        "index": 25,
+        "sentence": "The image shows three cars, one zebra, and one corgi. There is a heart-shaped hill in the background. The style of the image is impressionism. The cars are positioned on the right side of the zebra.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "number",
+            "shape",
+            "style",
+            "spatial"
+        ],
+        "skills": [
+            "car",
+            "zebra",
+            "corgi",
+            "hill",
+            "3",
+            "heart",
+            "impressionism",
+            "right"
+        ],
+        "question": [
+            "Does the image contain car?  ",
+            "Does the image contain zebra?  ",
+            "Does the image contain corgi?  ",
+            "Does the image contain hill?  ",
+            "Does the image contain exactly 3 cars?  ",
+            "Is the hill heart-shaped?  ",
+            "Is the style of the image impressionism?  ",
+            "Is the car positioned on the right side of zebra?"
+        ]
+    },
+    {
+        "index": 26,
+        "sentence": "A huge red pizza is positioned at the bottom of a pine tree, touching it. There are two tiny dogs in the image.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "color",
+            "number",
+            "size",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "pizza",
+            "pine tree",
+            "dog",
+            "red",
+            "2",
+            "huge",
+            "tiny",
+            "bottom"
+        ],
+        "question": [
+            "Does the image contain pizza?  ",
+            "Does the image contain a pine tree?  ",
+            "Does the image contain dogs?  ",
+            "Is the color of the pizza red?  ",
+            "Are there exactly 2 dogs in the image?  ",
+            "Is the pizza huge?  ",
+            "Are the dogs tiny?  ",
+            "Is the pizza at the bottom of the pine tree, touching it?"
+        ]
+    },
+    {
+        "index": 27,
+        "sentence": "The image features four heart-shaped cactuses in the foreground with three oak trees positioned behind them. The style of the image is an expressionistic form of graffiti.",
+        "categories": [
+            "object",
+            "object",
+            "number",
+            "shape",
+            "number",
+            "style",
+            "style",
+            "spatial"
+        ],
+        "skills": [
+            "cactus",
+            "oak tree",
+            "4",
+            "heart",
+            "3",
+            "graffiti",
+            "expressionism",
+            "behind"
+        ],
+        "question": [
+            "Does the image contain one or more cactuses?",
+            "Does the image contain one or more oak trees?",
+            "Does the image contain exactly 4 cactuses?",
+            "Is the cactus heart-shaped?",
+            "Does the image contain exactly 3 oak trees?",
+            "Is the style of the image graffiti?",
+            "Is the style of the image expressionism?",
+            "Is the oak tree positioned behind the cactus?"
+        ]
+    },
+    {
+        "index": 28,
+        "sentence": "A fork, a fluffy-textured novel with an apple on top, a cactus, a giraffe, and a hammer are in the image.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "texture",
+            "spatial"
+        ],
+        "skills": [
+            "fork",
+            "novel",
+            "apple",
+            "cactus",
+            "giraffe",
+            "hammer",
+            "fluffy",
+            "top"
+        ],
+        "question": [
+            "Does the image contain a fork?  ",
+            "Does the image contain a novel?  ",
+            "Does the image contain an apple?  ",
+            "Does the image contain a cactus?  ",
+            "Does the image contain a giraffe?  ",
+            "Does the image contain a hammer?  ",
+            "Does the novel have a fluffy texture?  ",
+            "Is the apple on top of the novel, touching each other?"
+        ]
+    },
+    {
+        "index": 29,
+        "sentence": "In a bustling urban scene, a man stands next to a heart-shaped duck. In his hands, he holds four smartphones. Nearby, a tiny doll sits on the ground. In the background, several towering skyscrapers rise into the sky.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "shape",
+            "size",
+            "number"
+        ],
+        "skills": [
+            "duck",
+            "smartphone",
+            "doll",
+            "skyscraper",
+            "man",
+            "heart",
+            "tiny",
+            "4"
+        ],
+        "question": [
+            "Does the image contain one or more ducks?",
+            "",
+            "Does the image contain one or more smartphones?",
+            "",
+            "Does the image contain one or more dolls?",
+            "",
+            "Does the image contain one or more skyscrapers?",
+            "",
+            "Does the image contain one or more men?",
+            "",
+            "Is the duck heart-shaped?",
+            "",
+            "Is the doll tiny-sized?",
+            "",
+            "Are there exactly four smartphones?"
+        ]
+    },
+    {
+        "index": 30,
+        "sentence": "A huge brown robot stands next to a tiny skyscraper. An orange novel is positioned on the left side of a car.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "size",
+            "size",
+            "color",
+            "color",
+            "spatial"
+        ],
+        "skills": [
+            "skyscraper",
+            "novel",
+            "robot",
+            "huge",
+            "tiny",
+            "orange",
+            "brown",
+            "left"
+        ],
+        "question": [
+            "Does the image contain skyscrapers?  ",
+            "Does the image contain novels?  ",
+            "Does the image contain robots?  ",
+            "Is the robot huge in size?  ",
+            "Is the skyscraper tiny in size?  ",
+            "Is the color of the novel orange?  ",
+            "Is the color of the robot brown?  ",
+            "Is the novel positioned on the left side of the car?"
+        ]
+    },
+    {
+        "index": 31,
+        "sentence": "The image is an oil painting in the style of impressionism. It shows two tiny corgis in front of a giraffe. The dogs are positioned nearer to the observer than the giraffe.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "size",
+            "style",
+            "style",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "dog",
+            "corgi",
+            "giraffe",
+            "tiny",
+            "impressionism",
+            "oil painting",
+            "2",
+            "in front of"
+        ],
+        "question": [
+            "Does the image contain a dog?  ",
+            "Does the image contain a corgi?  ",
+            "Does the image contain a giraffe?  ",
+            "Does the corgi have a tiny size?  ",
+            "Is the style of the image impressionism?  ",
+            "Is the style of the image oil painting?  ",
+            "Are there exactly 2 corgis in the image?  ",
+            "Is the dog positioned in front of the giraffe?  "
+        ]
+    },
+    {
+        "index": 32,
+        "sentence": "A dog stands near a huge, square-shaped red hill. Below the red hill, separated by a small gap, there is a tiny volcano.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "size",
+            "color",
+            "shape",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "dog",
+            "hill",
+            "volcano",
+            "tiny",
+            "red",
+            "square",
+            "huge",
+            "below"
+        ],
+        "question": [
+            "Does the image contain a dog?  ",
+            "Does the image contain a hill?  ",
+            "Does the image contain a volcano?  ",
+            "Is the volcano tiny in size?  ",
+            "Is the hill red in color?  ",
+            "Is the hill square-shaped?  ",
+            "Is the hill huge in size?  ",
+            "Is the volcano positioned below the hill without touching it?"
+        ]
+    },
+    {
+        "index": 33,
+        "sentence": "The oil painting depicts two tiny pigs with a fluffy texture. On the right side of the table, there is a metallic spoon.",
+        "categories": [
+            "object",
+            "object",
+            "texture",
+            "size",
+            "texture",
+            "number",
+            "style",
+            "spatial"
+        ],
+        "skills": [
+            "pig",
+            "spoon",
+            "fluffy",
+            "tiny",
+            "metallic",
+            "2",
+            "oil painting",
+            "right"
+        ],
+        "question": [
+            "Does the image contain pig?  ",
+            "Does the image contain spoon?  ",
+            "Does the pig have a fluffy texture?  ",
+            "Does the pig have a tiny size?  ",
+            "Does the spoon have a metallic texture?  ",
+            "Is the number of pigs exactly 2?  ",
+            "Is the style of the image oil painting?  ",
+            "Is the spoon positioned on the right side of the table?"
+        ]
+    },
+    {
+        "index": 34,
+        "sentence": "The image depicts a brown table positioned nearer to the observer, with two blue glass elephants behind it.",
+        "categories": [
+            "object",
+            "object",
+            "texture",
+            "color",
+            "color",
+            "number",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "table",
+            "elephant",
+            "glass",
+            "blue",
+            "brown",
+            "2",
+            "behind",
+            "in front of"
+        ],
+        "question": [
+            "Does the image contain one or more tables?  ",
+            "Does the image contain one or more elephants?  ",
+            "Do the elephants have a glass texture?  ",
+            "Is the color of the elephants blue?  ",
+            "Is the color of the table brown?  ",
+            "Is the number of elephants exactly two?  ",
+            "Is the elephant positioned farther from the observer or camera than the table?  ",
+            "Is the table positioned nearer to the observer or camera than the elephants?"
+        ]
+    },
+    {
+        "index": 35,
+        "sentence": "The image shows a metallic-textured corgi positioned on the left side of a cow. There are also two pink sheep and a ring in the scene.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "color",
+            "number",
+            "texture",
+            "spatial"
+        ],
+        "skills": [
+            "ring",
+            "cow",
+            "sheep",
+            "corgi",
+            "pink",
+            "2",
+            "metallic",
+            "left"
+        ],
+        "question": [
+            "Does the image contain a ring?",
+            "",
+            "Does the image contain a cow?",
+            "",
+            "Does the image contain a sheep?",
+            "",
+            "Does the image contain a corgi?",
+            "",
+            "Is the color of the sheep pink?",
+            "",
+            "Is the number of sheep exactly 2?",
+            "",
+            "Does the corgi have a metallic texture?",
+            "",
+            "Is the corgi positioned on the left side of the cow?"
+        ]
+    },
+    {
+        "index": 36,
+        "sentence": "A rectangular glass robot is positioned behind a square-shaped chicken. A huge pizza and a burger are also present in the image.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "size",
+            "shape",
+            "shape",
+            "texture",
+            "spatial"
+        ],
+        "skills": [
+            "robot",
+            "pizza",
+            "chicken",
+            "huge",
+            "square",
+            "rectangle",
+            "glass",
+            "in front of"
+        ],
+        "question": [
+            "Does the image contain a robot?",
+            "Does the image contain a pizza?",
+            "Does the image contain a chicken?",
+            "Is the pizza huge?",
+            "Is the chicken square-shaped?",
+            "Is the robot rectangle-shaped?",
+            "Does the robot have a glass texture?",
+            "Is the chicken in front of the robot?"
+        ]
+    },
+    {
+        "index": 37,
+        "sentence": "In an oil painting, four women are depicted, with a tiny gray highway included in the scenery. Below the women, there is a ring, positioned lower without touching them. A house is also present in the image.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "color",
+            "style",
+            "number",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "highway",
+            "woman",
+            "ring",
+            "gray",
+            "oil painting",
+            "4",
+            "tiny",
+            "below"
+        ],
+        "question": [
+            "Does the image contain a highway?",
+            "Does the image contain one or more women?",
+            "Does the image contain a ring?",
+            "Is the color of the highway gray?",
+            "Is the style of the image oil painting?",
+            "Does the image contain exactly 4 women?",
+            "Is the highway tiny in size?",
+            "Is the ring positioned below the woman without touching it?"
+        ]
+    },
+    {
+        "index": 38,
+        "sentence": "An abstract image shows a pig standing next to an orange elephant. A heart-shaped fork is placed in front of the pig, and a purple smartphone lies beside the fork.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "color",
+            "style",
+            "shape",
+            "color"
+        ],
+        "skills": [
+            "pig",
+            "smartphone",
+            "fork",
+            "elephant",
+            "orange",
+            "abstract",
+            "heart",
+            "purple"
+        ],
+        "question": [
+            "Does the image contain a pig?  ",
+            "Does the image contain a smartphone?  ",
+            "Is the color of the smartphone purple?  ",
+            "Does the image contain a fork?  ",
+            "Is the shape of the fork heart-shaped?  ",
+            "Does the image contain an elephant?  ",
+            "Is the color of the elephant orange?  ",
+            "Is the style of the image abstract?"
+        ]
+    },
+    {
+        "index": 39,
+        "sentence": "The caption makes sense in a very loose sense. \n\nA graffiti-style image features a zebra, a large square-shaped chicken, a purple bee, and a sparrow. The overall composition is abstract.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "shape",
+            "style",
+            "color",
+            "size",
+            "style"
+        ],
+        "skills": [
+            "zebra",
+            "bee",
+            "chicken",
+            "square",
+            "abstract",
+            "purple",
+            "huge",
+            "graffiti"
+        ],
+        "question": [
+            "Does the image contain a zebra?",
+            "Does the image contain a bee?",
+            "Does the image contain a chicken?",
+            "Is the chicken square shaped?",
+            "Is the style of the image abstract?",
+            "Is the color of the bee purple?",
+            "Is the chicken huge in size?",
+            "Is the style of the image graffiti?"
+        ]
+    },
+    {
+        "index": 40,
+        "sentence": "A man is holding a fork in one hand and a hammer in the other hand. There is a heart-shaped sunflower near him. A yellow butterfly is flying close to the sunflower. A bee is also flying around the sunflower.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "shape",
+            "color"
+        ],
+        "skills": [
+            "man",
+            "fork",
+            "sunflower",
+            "hammer",
+            "butterfly",
+            "bee",
+            "heart",
+            "yellow"
+        ],
+        "question": [
+            "Does the image contain a man?",
+            "",
+            "Does the image contain a fork?",
+            "",
+            "Does the image contain a sunflower?",
+            "",
+            "Does the image contain a hammer?",
+            "",
+            "Does the image contain a butterfly?",
+            "",
+            "Does the image contain a bee?",
+            "",
+            "Is the sunflower heart-shaped?",
+            "",
+            "Is the butterfly yellow?"
+        ]
+    },
+    {
+        "index": 41,
+        "sentence": "In a pixel art style image with manga influences, a blue screwdriver rests on the highest point of a truck with a glass texture, directly touching it. A box is placed on top of the screwdriver, touching its highest point.",
+        "categories": [
+            "object",
+            "object",
+            "style",
+            "style",
+            "texture",
+            "color",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "screwdriver",
+            "truck",
+            "pixel art",
+            "manga",
+            "glass",
+            "blue",
+            "top",
+            "top"
+        ],
+        "question": [
+            "Does the image contain a screwdriver?",
+            "",
+            "Does the image contain a truck?",
+            "",
+            "Is the style of the image pixel art?",
+            "",
+            "Is the style of the image manga?",
+            "",
+            "Does the truck have a glass texture?",
+            "",
+            "Is the color of the screwdriver blue?",
+            "",
+            "Is the screwdriver positioned on top of the truck, touching it?",
+            "",
+            "Is the box positioned on top of the screwdriver, touching it?"
+        ]
+    },
+    {
+        "index": 42,
+        "sentence": "In the image, a corgi has a tiny apple positioned on top of its head. A cactus and a fork are placed nearby. Additionally, there is a duck with a metallic texture in the scene.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "texture",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "corgi",
+            "apple",
+            "cactus",
+            "fork",
+            "duck",
+            "metallic",
+            "tiny",
+            "top"
+        ],
+        "question": [
+            "Does the image contain a corgi?  ",
+            "Does the image contain an apple?  ",
+            "Does the image contain a cactus?  ",
+            "Does the image contain a fork?  ",
+            "Does the image contain a duck?  ",
+            "Does the duck have a metallic texture?  ",
+            "Does the apple have a tiny size?  ",
+            "Is the apple positioned on top of the corgi, touching it?"
+        ]
+    },
+    {
+        "index": 43,
+        "sentence": "The image shows an elephant with a spider positioned below it without touching. There are exactly four cats with a metallic texture. The entire scene is depicted in expressionist style using ink techniques.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "number",
+            "style",
+            "style",
+            "texture",
+            "spatial"
+        ],
+        "skills": [
+            "elephant",
+            "spider",
+            "cat",
+            "4",
+            "expressionism",
+            "ink",
+            "metallic",
+            "below"
+        ],
+        "question": [
+            "Does the image contain one or more elephants?",
+            "Does the image contain one or more spiders?",
+            "Does the image contain one or more cats?",
+            "Does the number of cats equal four?",
+            "Is the style of the image expressionism?",
+            "Is the style of the image ink?",
+            "Does at least one cat have a metallic texture?",
+            "Is the spider positioned below the elephant without touching it?"
+        ]
+    },
+    {
+        "index": 44,
+        "sentence": "A woman stands next to a metallic-textured corgi holding a smartphone in one hand and an apple in the other. A red butterfly lands on a sunflower near her.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "color",
+            "texture"
+        ],
+        "skills": [
+            "smartphone",
+            "woman",
+            "corgi",
+            "apple",
+            "sunflower",
+            "butterfly",
+            "red",
+            "metallic"
+        ],
+        "question": [
+            "Does the image contain a smartphone?  ",
+            "Does the image contain a woman?  ",
+            "Does the image contain a corgi?  ",
+            "Does the image contain an apple?    ",
+            "Does the image contain a sunflower?  ",
+            "Does the image contain a butterfly?  ",
+            "Is the color of the butterfly red?  ",
+            "Does the corgi have a metallic texture?"
+        ]
+    },
+    {
+        "index": 45,
+        "sentence": "The image features a blue car with a glass texture, positioned behind three orange novels. The artistic style of the image is graffiti.",
+        "categories": [
+            "object",
+            "object",
+            "color",
+            "color",
+            "number",
+            "style",
+            "texture",
+            "spatial"
+        ],
+        "skills": [
+            "car",
+            "novel",
+            "orange",
+            "blue",
+            "3",
+            "graffiti",
+            "glass",
+            "behind"
+        ],
+        "question": [
+            "Does the image contain a car?",
+            "Does the image contain novels?",
+            "Are the novels orange in color?",
+            "Is the car blue in color?",
+            "Are there exactly three novels?",
+            "Is the style of the image graffiti?",
+            "Does the car have a glass texture?",
+            "Is the car positioned behind the novels?"
+        ]
+    },
+    {
+        "index": 46,
+        "sentence": "The image, drawn in a manga style, shows three huge robots and three tiny oak trees. Each robot is positioned above a tiny oak tree without touching it.",
+        "categories": [
+            "object",
+            "object",
+            "number",
+            "number",
+            "size",
+            "size",
+            "style",
+            "spatial"
+        ],
+        "skills": [
+            "robot",
+            "oak tree",
+            "3",
+            "3",
+            "huge",
+            "tiny",
+            "manga",
+            "above"
+        ],
+        "question": [
+            "Does the image contain one or more robots?  ",
+            "Does the image contain one or more oak trees?  ",
+            "Does the image have exactly three oak trees?  ",
+            "Does the image have exactly three robots?  ",
+            "Is each robot huge in size?  ",
+            "Is each oak tree tiny in size?  ",
+            "Is the style of the image manga?  ",
+            "Is each robot positioned higher than each oak tree without touching it?"
+        ]
+    },
+    {
+        "index": 47,
+        "sentence": "The image depicts two metallic-textured oak trees and three cactuses positioned in front of the oak trees. The artistic style is a mix of surrealism and manga.",
+        "categories": [
+            "object",
+            "object",
+            "texture",
+            "number",
+            "style",
+            "style",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "oak tree",
+            "cactus",
+            "metallic",
+            "3",
+            "surrealism",
+            "manga",
+            "2",
+            "in front of"
+        ],
+        "question": [
+            "Does the image contain oak trees?  ",
+            "Does the image contain cactuses?  ",
+            "Do the oak trees have a metallic texture?  ",
+            "Does the number of cactuses equal 3?  ",
+            "Is the style of the image surrealism?  ",
+            "Is the style of the image manga?  ",
+            "Does the number of oak trees equal 2?  ",
+            "Are the cactuses positioned in front of the oak trees?"
+        ]
+    },
+    {
+        "index": 48,
+        "sentence": "The image shows a man standing next to a tiny truck. There is an orange near the man. The tiny truck has a screwdriver on top of it. The truck is positioned at the bottom of a giraffe.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "size",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "man",
+            "truck",
+            "orange",
+            "giraffe",
+            "screwdriver",
+            "tiny",
+            "top",
+            "bottom"
+        ],
+        "question": [
+            "Does the image contain a man?",
+            "Does the image contain a truck?",
+            "Does the image contain an orange?",
+            "Does the image contain a giraffe?",
+            "Does the image contain a screwdriver?",
+            "Is the truck tiny in size?",
+            "Is the screwdriver on top of the truck and touching it?",
+            "Is the truck at the bottom of the giraffe and touching it?"
+        ]
+    },
+    {
+        "index": 49,
+        "sentence": "In the image, there are four square-shaped roses with a glass texture. The scene also features a tiny lion and a tiny spoon. In the background, there is a tree.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "texture",
+            "size",
+            "number",
+            "shape",
+            "size"
+        ],
+        "skills": [
+            "rose",
+            "lion",
+            "spoon",
+            "glass",
+            "tiny",
+            "4",
+            "square",
+            "tiny"
+        ],
+        "question": [
+            "Does the image contain one or more roses?",
+            "Does the image contain one or more lions?",
+            "Does the image contain one or more spoons?",
+            "Does the rose have a glass texture?",
+            "Does the lion have a tiny size?",
+            "Is the number of roses exactly 4?",
+            "Is the rose square-shaped?",
+            "Does the spoon have a tiny size?"
+        ]
+    },
+    {
+        "index": 50,
+        "sentence": "In an impressionist style image, a tiny, fluffy pig is positioned outside of a tree. On the left side of the tree, there is a piece of yellow sushi.",
+        "categories": [
+            "object",
+            "object",
+            "texture",
+            "size",
+            "style",
+            "color",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "pig",
+            "sushi",
+            "fluffy",
+            "tiny",
+            "impressionism",
+            "yellow",
+            "outside",
+            "left"
+        ],
+        "question": [
+            "Does the image contain a pig?  ",
+            "Does the image contain sushi?  ",
+            "Does the pig have a fluffy texture?  ",
+            "Is the pig tiny in size?  ",
+            "Is the style of the image impressionism?  ",
+            "Is the color of the sushi yellow?  ",
+            "Is the pig positioned outside of the tree?  ",
+            "Is the sushi positioned on the left side of the tree?"
+        ]
+    },
+    {
+        "index": 51,
+        "sentence": "A heart-shaped corgi sits beside a wooden chair. A screwdriver lies on the ground near the chair. A carrot is placed next to the screwdriver. The image is done in an expressionist watercolor style.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "shape",
+            "style",
+            "style",
+            "spatial"
+        ],
+        "skills": [
+            "corgi",
+            "screwdriver",
+            "chair",
+            "carrot",
+            "heart",
+            "watercolor",
+            "expressionism",
+            "outside"
+        ],
+        "question": [
+            "Does the image contain a corgi?  ",
+            "Does the image contain a screwdriver?  ",
+            "Does the image contain a chair?  ",
+            "Does the image contain a carrot?  ",
+            "Is the corgi heart shaped?  ",
+            "Is the style of the image watercolor?  ",
+            "Is the style of the image expressionism?  ",
+            "Is the corgi positioned outside of the chair?"
+        ]
+    },
+    {
+        "index": 52,
+        "sentence": "The image depicts three huge, heart-shaped robots with a metallic texture and a purple color. The style of the image is impressionism. Each robot has a human positioned at the bottom, touching the robot.",
+        "categories": [
+            "object",
+            "number",
+            "shape",
+            "size",
+            "style",
+            "color",
+            "texture",
+            "spatial"
+        ],
+        "skills": [
+            "robot",
+            "3",
+            "heart",
+            "huge",
+            "impressionism",
+            "purple",
+            "metallic",
+            "bottom"
+        ],
+        "question": [
+            "Does the image contain robots?",
+            "",
+            "Are there exactly 3 robots in the image?",
+            "",
+            "Are the robots heart-shaped?",
+            "",
+            "Are the robots huge in size?",
+            "",
+            "Is the style of the image impressionism?",
+            "",
+            "Are the robots purple?",
+            "",
+            "Do the robots have a metallic texture?",
+            "",
+            "Is a human positioned at the bottom and touching each robot?"
+        ]
+    },
+    {
+        "index": 53,
+        "sentence": "Two white sheep with fluffy textures stand out against a pop art background. Beside them, there are three carrots with a metallic texture.",
+        "categories": [
+            "object",
+            "object",
+            "texture",
+            "number",
+            "number",
+            "style",
+            "texture",
+            "color"
+        ],
+        "skills": [
+            "sheep",
+            "carrot",
+            "metallic",
+            "2",
+            "3",
+            "pop art",
+            "fluffy",
+            "white"
+        ],
+        "question": [
+            "Does the image contain sheep?",
+            "Does the image contain carrots?",
+            "Do the carrots have a metallic texture?",
+            "Are there exactly 2 sheep in the image?",
+            "Are there exactly 3 carrots in the image?",
+            "Is the style of the image pop art?",
+            "Do the sheep have a fluffy texture?",
+            "Are the sheep white?"
+        ]
+    },
+    {
+        "index": 54,
+        "sentence": "In a surrealistic scene, a purple doll stands with two brown, glass-textured dogs positioned directly below it, touching the base of the doll.",
+        "categories": [
+            "object",
+            "object",
+            "color",
+            "style",
+            "color",
+            "texture",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "dog",
+            "doll",
+            "purple",
+            "surrealism",
+            "brown",
+            "glass",
+            "2",
+            "bottom"
+        ],
+        "question": [
+            "Does the image contain dogs?",
+            "",
+            "Does the image contain dolls?",
+            "",
+            "Is the color of the doll purple?",
+            "",
+            "Is the style of the image surrealism?",
+            "",
+            "Is the color of the dogs brown?",
+            "",
+            "Do the dogs have a glass texture?",
+            "",
+            "Is the number of dogs exactly two?",
+            "",
+            "Are the dogs positioned below and touching the doll?"
+        ]
+    },
+    {
+        "index": 55,
+        "sentence": "The image shows two women in a watercolor style. Below them is a huge, yellow, heart-shaped spoon. The spoon is positioned lower than the women without touching them.",
+        "categories": [
+            "object",
+            "object",
+            "color",
+            "style",
+            "number",
+            "size",
+            "shape",
+            "spatial"
+        ],
+        "skills": [
+            "woman",
+            "spoon",
+            "yellow",
+            "watercolor",
+            "2",
+            "huge",
+            "heart",
+            "below"
+        ],
+        "question": [
+            "Does the image contain one or more women?  ",
+            "Does the image contain one or more spoons?  ",
+            "Is the color of the spoon yellow?  ",
+            "Is the style of the image watercolor?  ",
+            "Is the number of women exactly 2?  ",
+            "Is the spoon huge in size?  ",
+            "Is the spoon heart-shaped?  ",
+            "Is the spoon positioned lower than the women without touching them?"
+        ]
+    },
+    {
+        "index": 56,
+        "sentence": "Three men are standing in a field next to four cows. Nearby, there is a yellow cactus and a fluffy giraffe.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "texture",
+            "number",
+            "color",
+            "number"
+        ],
+        "skills": [
+            "man",
+            "cow",
+            "giraffe",
+            "cactus",
+            "fluffy",
+            "4",
+            "yellow",
+            "3"
+        ],
+        "question": [
+            "Does the image contain men?  ",
+            "Does the image contain cows?  ",
+            "Does the image contain giraffes?  ",
+            "Does the image contain cactuses?  ",
+            "Does the giraffe have a fluffy texture?  ",
+            "Is the number of cows exactly 4?  ",
+            "Is the color of the cactus yellow?  ",
+            "Is the number of men exactly 3?"
+        ]
+    },
+    {
+        "index": 57,
+        "sentence": "A graffiti-style image shows a metallic horse in front of two volcanoes. There is a heart-shaped ring. The volcanoes are positioned behind the horse.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "texture",
+            "style",
+            "number",
+            "shape",
+            "spatial"
+        ],
+        "skills": [
+            "ring",
+            "horse",
+            "volcano",
+            "metallic",
+            "graffiti",
+            "2",
+            "heart",
+            "behind"
+        ],
+        "question": [
+            "Does the image contain a ring?  ",
+            "Does the image contain a horse?  ",
+            "Does the image contain a volcano?  ",
+            "Does the horse have a metallic texture?  ",
+            "Is the style of the image graffiti?  ",
+            "Does the image contain exactly two volcanoes?  ",
+            "Is the ring heart-shaped?  ",
+            "Is the volcano positioned farther from the observer or camera than the horse?"
+        ]
+    },
+    {
+        "index": 58,
+        "sentence": "A tiny, circle-shaped hill is present in the foreground. A tiny, pink cat with a glass texture is perched on the hill. The image is rendered in a pop art style.",
+        "categories": [
+            "object",
+            "object",
+            "size",
+            "texture",
+            "shape",
+            "style",
+            "color",
+            "size"
+        ],
+        "skills": [
+            "hill",
+            "cat",
+            "tiny",
+            "glass",
+            "circle",
+            "pop art",
+            "pink",
+            "tiny"
+        ],
+        "question": [
+            "Does the image contain a hill?  ",
+            "Does the image contain a cat?  ",
+            "Is the cat tiny?  ",
+            "Does the cat have a glass texture?  ",
+            "Is the hill circle-shaped?  ",
+            "Is the style of the image pop art?  ",
+            "Is the color of the cat pink?  ",
+            "Is the hill tiny?"
+        ]
+    },
+    {
+        "index": 59,
+        "sentence": "A horse stands next to two chairs in front of a heart-shaped cactus. A pig is nearby, and a tall skyscraper with a glass exterior is visible in the background.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "number",
+            "texture",
+            "shape"
+        ],
+        "skills": [
+            "horse",
+            "skyscraper",
+            "cactus",
+            "chair",
+            "pig",
+            "2",
+            "glass",
+            "heart"
+        ],
+        "question": [
+            "Does the image contain a horse?",
+            "",
+            "Does the image contain a skyscraper?",
+            "",
+            "Does the image contain a cactus?",
+            "",
+            "Does the image contain chairs?",
+            "",
+            "Does the image contain a pig?",
+            "",
+            "Is the number of chairs exactly 2?",
+            "",
+            "Does the skyscraper have a glass texture?",
+            "",
+            "Is the cactus heart-shaped?"
+        ]
+    },
+    {
+        "index": 60,
+        "sentence": "The pixel art image shows four heart-shaped rings with a fluffy texture in the foreground. Behind the rings, there are exactly three houses.",
+        "categories": [
+            "object",
+            "object",
+            "number",
+            "shape",
+            "texture",
+            "number",
+            "style",
+            "spatial"
+        ],
+        "skills": [
+            "ring",
+            "house",
+            "3",
+            "heart",
+            "fluffy",
+            "4",
+            "pixel art",
+            "behind"
+        ],
+        "question": [
+            "Does the image contain one or more rings?",
+            "Does the image contain one or more houses?",
+            "Does the image contain exactly 3 houses?",
+            "Is the ring heart-shaped?",
+            "Does the ring have a fluffy texture?",
+            "Does the image contain exactly 4 rings?",
+            "Is the style of the image pixel art?",
+            "Is the house behind the ring; meaning the house is positioned farther from the observer or camera than the ring?"
+        ]
+    },
+    {
+        "index": 61,
+        "sentence": "The image, done in the expressionism style, shows exactly four carrots and two forks. The carrots are on the left side of the forks. The forks have a metallic texture and are behind a plate, positioned farther from the observer than the plate.",
+        "categories": [
+            "object",
+            "object",
+            "number",
+            "style",
+            "texture",
+            "number",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "carrot",
+            "fork",
+            "4",
+            "expressionism",
+            "metallic",
+            "2",
+            "left",
+            "behind"
+        ],
+        "question": [
+            "Does the image contain carrots?",
+            "Does the image contain forks?",
+            "Is the number of carrots exactly 4?",
+            "Is the style of the image expressionism?",
+            "Do the forks have a metallic texture?",
+            "Is the number of forks exactly 2?",
+            "Are the carrots positioned on the left side of the forks?",
+            "Is the fork behind a plate, meaning the fork is positioned farther from the observer or camera than the plate?"
+        ]
+    },
+    {
+        "index": 62,
+        "sentence": "The image shows two pink, fluffy chairs. Each chair has a triangle-shaped duck on top of it. There are two ducks in total.",
+        "categories": [
+            "object",
+            "object",
+            "number",
+            "shape",
+            "texture",
+            "color",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "chair",
+            "duck",
+            "2",
+            "triangle",
+            "fluffy",
+            "pink",
+            "2",
+            "top"
+        ],
+        "question": [
+            "Does the image contain one or more chairs?",
+            "Does the image contain one or more ducks?",
+            "Are there exactly 2 chairs in the image?",
+            "Is the duck triangle-shaped?",
+            "Do the chairs have a fluffy texture?",
+            "Are the chairs pink?",
+            "Are there exactly 2 ducks in the image?",
+            "Is each duck on top of a chair, touching the chair?"
+        ]
+    },
+    {
+        "index": 63,
+        "sentence": "An image shows a brown, heart-shaped chair with a glass texture. A square-shaped butterfly rests on the  . Nearby, there is a rose and an apple placed side by side.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "color",
+            "texture",
+            "shape",
+            "shape"
+        ],
+        "skills": [
+            "chair",
+            "butterfly",
+            "apple",
+            "rose",
+            "brown",
+            "glass",
+            "heart",
+            "square"
+        ],
+        "question": [
+            "Does the image contain a chair?  ",
+            "Does the image contain a butterfly?  ",
+            "Does the image contain an apple?  ",
+            "Does the image contain a rose?  ",
+            "Is the chair brown?  ",
+            "Does the chair have a glass texture?  ",
+            "Is the chair heart-shaped?  ",
+            "Is the butterfly square-shaped?"
+        ]
+    },
+    {
+        "index": 64,
+        "sentence": "A pink giraffe stands near a pine tree, with a doll placed on top of the giraffe. A woman is also present in the scene. A sunflower is positioned outside the pine tree.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "color",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "sunflower",
+            "woman",
+            "doll",
+            "giraffe",
+            "pine tree",
+            "pink",
+            "top",
+            "outside"
+        ],
+        "question": [
+            "Does the image contain sunflower?  ",
+            "Does the image contain a woman?  ",
+            "Does the image contain a doll?  ",
+            "Does the image contain a giraffe?  ",
+            "Does the image contain a pine tree?  ",
+            "Is the giraffe pink in color?  ",
+            "Is the doll on top of the giraffe, positioned above or at the highest point and touching each other?  ",
+            "Is the sunflower positioned beyond the boundaries or exterior of the pine tree?"
+        ]
+    },
+    {
+        "index": 65,
+        "sentence": "The image shows a smartphone with a rectangle shape placed on a wooden table. Next to it, there is a spoon with a fluffy texture. A tiny purple necklace is lying close to the spoon. A ring is visible near the phone. Also, a book is placed on the table.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "color",
+            "shape",
+            "size",
+            "texture"
+        ],
+        "skills": [
+            "spoon",
+            "necklace",
+            "ring",
+            "smartphone",
+            "purple",
+            "rectangle",
+            "tiny",
+            "fluffy"
+        ],
+        "question": [
+            "Does the image contain a spoon?  ",
+            "Does the image contain a necklace?  ",
+            "Does the image contain a ring?  ",
+            "Does the image contain a smartphone?  ",
+            "Is the color of the necklace purple?  ",
+            "Is the smartphone rectangle shaped?  ",
+            "Is the necklace tiny in size?  ",
+            "Does the spoon have a fluffy texture?"
+        ]
+    },
+    {
+        "index": 66,
+        "sentence": "The image is a pixel art drawing in an ink style. A metallic-textured sunflower is positioned above a table without touching it. Behind the sunflower, there is a broccoli, positioned farther from the observer or camera.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "style",
+            "style",
+            "texture",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "sunflower",
+            "broccoli",
+            "table",
+            "pixel art",
+            "ink",
+            "metallic",
+            "above",
+            "behind"
+        ],
+        "question": [
+            "Does the image contain a sunflower?  ",
+            "Does the image contain a broccoli?  ",
+            "Does the image contain a table?  ",
+            "Is the style of the image pixel art?  ",
+            "Is the style of the image ink?  ",
+            "Does the sunflower have a metallic texture?  ",
+            "Is the sunflower positioned above the table without touching it?  ",
+            "Is the broccoli positioned behind the sunflower?"
+        ]
+    },
+    {
+        "index": 67,
+        "sentence": "The image shows a scene with two white houses and one skyscraper. The skyscraper has a glass texture. Inside one of the white houses, there is a fork with a metallic texture.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "number",
+            "color",
+            "texture",
+            "texture",
+            "spatial"
+        ],
+        "skills": [
+            "skyscraper",
+            "fork",
+            "house",
+            "2",
+            "white",
+            "metallic",
+            "glass",
+            "inside"
+        ],
+        "question": [
+            "Does the image contain a skyscraper?",
+            "",
+            "Does the image contain a fork?",
+            "",
+            "Does the image contain houses?",
+            "",
+            "Does the image contain exactly 2 houses?",
+            "",
+            "Are the houses white in color?",
+            "",
+            "Does the fork have a metallic texture?",
+            "",
+            "Does the skyscraper have a glass texture?",
+            "",
+            "Is the fork inside a house?"
+        ]
+    },
+    {
+        "index": 68,
+        "sentence": "In a pop art style, the image shows a huge, brown, fluffy dog positioned next to four gray novels. A cat is also present in the scene.",
+        "categories": [
+            "object",
+            "object",
+            "texture",
+            "style",
+            "color",
+            "size",
+            "color",
+            "number"
+        ],
+        "skills": [
+            "dog",
+            "novel",
+            "fluffy",
+            "pop art",
+            "gray",
+            "huge",
+            "brown",
+            "4"
+        ],
+        "question": [
+            "Does the image contain a dog?  ",
+            "Does the image contain one or more novels?  ",
+            "Does the dog have a fluffy texture?  ",
+            "Is the style of the image pop art?  ",
+            "Is the color of the novel gray?  ",
+            "Does the dog have a huge size?  ",
+            "Is the color of the dog brown?  ",
+            "Is the number of novels exactly 4?"
+        ]
+    },
+    {
+        "index": 69,
+        "sentence": "Two tiny, white, heart-shaped, fluffy cactuses are positioned at the bottom of a pot, touching each other. The image is styled in manga.",
+        "categories": [
+            "object",
+            "color",
+            "number",
+            "texture",
+            "shape",
+            "style",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "cactus",
+            "white",
+            "2",
+            "fluffy",
+            "heart",
+            "manga",
+            "tiny",
+            "bottom"
+        ],
+        "question": [
+            "Does the image contain cactuses?  ",
+            "Are the cactuses white in color?  ",
+            "Are there exactly two cactuses?  ",
+            "Do the cactuses have a fluffy texture?  ",
+            "Are the cactuses heart-shaped?  ",
+            "Is the style of the image manga?  ",
+            "Are the cactuses tiny in size?  ",
+            "Are the cactuses positioned at the bottom of the pot, touching each other?"
+        ]
+    },
+    {
+        "index": 70,
+        "sentence": "The image shows a pixel art ink style scene with four tiny metallic-textured necklaces positioned above a doll without touching it.",
+        "categories": [
+            "object",
+            "object",
+            "style",
+            "style",
+            "texture",
+            "number",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "necklace",
+            "doll",
+            "pixel art",
+            "ink",
+            "metallic",
+            "4",
+            "tiny",
+            "above"
+        ],
+        "question": [
+            "Does the image contain necklace?",
+            "",
+            "Does the image contain a doll?",
+            "",
+            "Is the style of the image pixel art?",
+            "",
+            "Is the style of the image ink?",
+            "",
+            "Does the necklace have a metallic texture?",
+            "",
+            "Are there exactly 4 necklaces in the image?",
+            "",
+            "Is the size of the necklace tiny?",
+            "",
+            "Is the necklace positioned above the doll without touching it?"
+        ]
+    },
+    {
+        "index": 71,
+        "sentence": "A purple glass-textured rose is positioned in the foreground of the image. In front of the rose, there are exactly four green spiders. The image also contains a skyscraper located behind the rose.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "texture",
+            "color",
+            "color",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "spider",
+            "skyscraper",
+            "rose",
+            "glass",
+            "green",
+            "purple",
+            "4",
+            "behind"
+        ],
+        "question": [
+            "Does the image contain spider?",
+            "",
+            "Does the image contain skyscraper?",
+            "",
+            "Does the image contain rose?",
+            "",
+            "Does the rose have a glass texture?",
+            "",
+            "Is the spider green in color?",
+            "",
+            "Is the rose purple in color?",
+            "",
+            "Is the number of spiders exactly 4?",
+            "",
+            "Is the skyscraper positioned behind the rose?"
+        ]
+    },
+    {
+        "index": 72,
+        "sentence": "A green rectangular truck is shown in a watercolor style. An apple is positioned above a hammer, with the apple not touching the hammer.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "shape",
+            "style",
+            "style",
+            "color",
+            "spatial"
+        ],
+        "skills": [
+            "apple",
+            "hammer",
+            "truck",
+            "rectangle",
+            "photorealism",
+            "watercolor",
+            "green",
+            "above"
+        ],
+        "question": [
+            "Does the image contain one or more apples?  ",
+            "Does the image contain one or more hammers?  ",
+            "Does the image contain one or more trucks?  ",
+            "Is the truck rectangle shaped?  ",
+            "Is the style of the image photorealism?  ",
+            "Is the style of the image watercolor?  ",
+            "Is the color of the truck green?  ",
+            "Is the apple above the hammer without touching it?"
+        ]
+    },
+    {
+        "index": 73,
+        "sentence": "A cubist-style sketch depicts a man positioned nearer to the viewer than a necklace, with an orange located outside the boundaries of the necklace.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "style",
+            "style",
+            "style",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "orange",
+            "necklace",
+            "man",
+            "sketch",
+            "photorealism",
+            "cubism",
+            "in front of",
+            "outside"
+        ],
+        "question": [
+            "Does the image contain an orange?",
+            "Does the image contain a necklace?",
+            "Does the image contain a man?",
+            "Is the style of the image sketch?",
+            "Is the style of the image photorealism?",
+            "Is the style of the image cubism?",
+            "Is the man positioned nearer to the observer or camera than the necklace?",
+            "Is the orange positioned beyond the boundaries or exterior of the necklace?"
+        ]
+    },
+    {
+        "index": 74,
+        "sentence": "A graffiti-style image features a square-shaped duck with a fluffy texture next to a huge, heart-shaped pink bee.",
+        "categories": [
+            "object",
+            "object",
+            "size",
+            "texture",
+            "shape",
+            "color",
+            "shape",
+            "style"
+        ],
+        "skills": [
+            "duck",
+            "bee",
+            "huge",
+            "fluffy",
+            "heart",
+            "pink",
+            "square",
+            "graffiti"
+        ],
+        "question": [
+            "Does the image contain a duck?",
+            "Does the image contain a bee?",
+            "Is the bee huge?",
+            "Does the duck have a fluffy texture?",
+            "Is the bee heart-shaped?",
+            "Is the bee pink?",
+            "Is the duck square-shaped?",
+            "Is the style of the image graffiti?"
+        ]
+    },
+    {
+        "index": 75,
+        "sentence": "The oil painting depicts an oak tree with a rectangular-shaped robot positioned to the right of it. Three rings are scattered around the base of the oak tree. An apple hangs from a branch on the oak tree.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "number",
+            "shape",
+            "style",
+            "spatial"
+        ],
+        "skills": [
+            "ring",
+            "oak tree",
+            "apple",
+            "robot",
+            "3",
+            "rectangle",
+            "oil painting",
+            "right"
+        ],
+        "question": [
+            "Does the image contain rings?  ",
+            "Does the image contain oak trees?  ",
+            "Does the image contain apples?  ",
+            "Does the image contain robots?  ",
+            "Is the number of rings exactly 3?  ",
+            "Is the robot rectangle shaped?  ",
+            "Is the style of the image oil painting?  ",
+            "Is the robot positioned on the right side of the oak tree?"
+        ]
+    },
+    {
+        "index": 76,
+        "sentence": "A huge dog stands with three tiny, fluffy blue cactuses touching its lowest point.",
+        "categories": [
+            "object",
+            "object",
+            "size",
+            "number",
+            "texture",
+            "size",
+            "color",
+            "spatial"
+        ],
+        "skills": [
+            "cactus",
+            "dog",
+            "huge",
+            "3",
+            "fluffy",
+            "tiny",
+            "blue",
+            "bottom"
+        ],
+        "question": [
+            "Does the image contain one or more cactuses?  ",
+            "Does the image contain one or more dogs?  ",
+            "Is the dog huge in size?  ",
+            "Is the number of cactuses exactly 3?  ",
+            "Do the cactuses have a fluffy texture?  ",
+            "Are the cactuses tiny in size?  ",
+            "Is the color of the cactuses blue?  ",
+            "Are the cactuses touching the lowest point of the dog?"
+        ]
+    },
+    {
+        "index": 77,
+        "sentence": "In an expressionist style image, there is a piece of sushi with a laptop positioned to its right. A skyscraper with a glass texture stands tall in the background. A single rose and a hammer are also present in the scene.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "texture",
+            "style",
+            "spatial"
+        ],
+        "skills": [
+            "sushi",
+            "laptop",
+            "skyscraper",
+            "rose",
+            "hammer",
+            "glass",
+            "expressionism",
+            "right"
+        ],
+        "question": [
+            "Does the image contain sushi?  ",
+            "Does the image contain a laptop?  ",
+            "Does the image contain a skyscraper?  ",
+            "Does the image contain a rose?  ",
+            "Does the image contain a hammer?  ",
+            "Does the skyscraper have a glass texture?  ",
+            "Is the style of the image expressionism?  ",
+            "Is the laptop positioned on the right side of the sushi?  "
+        ]
+    },
+    {
+        "index": 78,
+        "sentence": "An impressionist-style image shows exactly three tiny oranges, a laptop with a fork positioned at its bottom, and a bee.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "number",
+            "style",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "orange",
+            "laptop",
+            "bee",
+            "fork",
+            "3",
+            "impressionism",
+            "tiny",
+            "bottom"
+        ],
+        "question": [
+            "Does the image contain oranges?  ",
+            "Does the image contain a laptop?  ",
+            "Does the image contain a bee?  ",
+            "Does the image contain a fork?  ",
+            "Are there exactly 3 oranges in the image?  ",
+            "Is the style of the image impressionism?  ",
+            "Are the oranges tiny in size?  ",
+            "Is the fork positioned at the bottom of the laptop, touching it?"
+        ]
+    },
+    {
+        "index": 79,
+        "sentence": "A tiny, heart-shaped spider with a glass texture is positioned in front of and outside two oranges.",
+        "categories": [
+            "object",
+            "object",
+            "texture",
+            "shape",
+            "number",
+            "size",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "spider",
+            "orange",
+            "glass",
+            "heart",
+            "2",
+            "tiny",
+            "outside",
+            "in front of"
+        ],
+        "question": [
+            "Does the image contain a spider?",
+            "Does the image contain oranges?",
+            "Does the spider have a glass texture?",
+            "Is the spider heart-shaped?",
+            "Are there exactly 2 oranges in the image?",
+            "Is the spider tiny?",
+            "Is the spider outside of the oranges?",
+            "Is the spider in front of the oranges?"
+        ]
+    },
+    {
+        "index": 80,
+        "sentence": "In the image, there is an orange dirt road, with a textbook positioned within its boundaries. To the right of the textbook, there are exactly 4 dolls. At the bottom of the dirt road, there is a box.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "number",
+            "color",
+            "spatial",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "textbook",
+            "dirt road",
+            "doll",
+            "4",
+            "orange",
+            "inside",
+            "right",
+            "bottom"
+        ],
+        "question": [
+            "Does the image contain textbooks?",
+            "Does the image contain dirt roads?",
+            "Does the image contain dolls?",
+            "Does the image contain exactly 4 dolls?",
+            "Is the color of the dirt road orange?",
+            "Is the textbook positioned within the boundaries or interior of the dirt road?",
+            "Are the dolls positioned on the right side of the textbook?",
+            "Is the box positioned at the bottom of the dirt road, touching it?"
+        ]
+    },
+    {
+        "index": 81,
+        "sentence": "The sketch image displays a huge orange house with three oak trees situated around it. A yellow carrot is also depicted in the scene.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "color",
+            "color",
+            "style",
+            "number",
+            "size"
+        ],
+        "skills": [
+            "oak tree",
+            "house",
+            "carrot",
+            "orange",
+            "yellow",
+            "sketch",
+            "3",
+            "huge"
+        ],
+        "question": [
+            "Does the image contain oak trees?",
+            "",
+            "Does the image contain a house?",
+            "",
+            "Does the image contain a carrot?",
+            "",
+            "Is the color of the house orange?",
+            "",
+            "Is the color of the carrot yellow?",
+            "",
+            "Is the style of the image a sketch?",
+            "",
+            "Are there exactly 3 oak trees in the image?",
+            "",
+            "Is the house huge in size?"
+        ]
+    },
+    {
+        "index": 82,
+        "sentence": "Two huge, circle-shaped dolls with a metallic texture and blue color are depicted in pixel art style. One doll is positioned in front of the other, closer to the observer.",
+        "categories": [
+            "object",
+            "number",
+            "texture",
+            "color",
+            "style",
+            "size",
+            "shape",
+            "spatial"
+        ],
+        "skills": [
+            "doll",
+            "2",
+            "metallic",
+            "blue",
+            "pixel art",
+            "huge",
+            "circle",
+            "in front of"
+        ],
+        "question": [
+            "Does the image contain dolls?",
+            "Are there exactly two dolls in the image?",
+            "Do the dolls have a metallic texture?",
+            "Are the dolls blue in color?",
+            "Is the style of the image pixel art?",
+            "Are the dolls huge in size?",
+            "Are the dolls circle-shaped?",
+            "Is one doll positioned in front of the other, closer to the observer?"
+        ]
+    },
+    {
+        "index": 83,
+        "sentence": "An orange giraffe is depicted in an ink style. Three metallic, rectangle-shaped spoons are present in the scene.",
+        "categories": [
+            "object",
+            "object",
+            "color",
+            "style",
+            "texture",
+            "shape",
+            "style",
+            "number"
+        ],
+        "skills": [
+            "giraffe",
+            "spoon",
+            "orange",
+            "ink",
+            "metallic",
+            "rectangle",
+            "ink",
+            "3"
+        ],
+        "question": [
+            "Does the image contain a giraffe?  ",
+            "Does the image contain a spoon?  ",
+            "Is the color of the giraffe orange?  ",
+            "Is the style of the image ink?  ",
+            "Does the spoon have a metallic texture?  ",
+            "Is the shape of the spoon rectangle?  ",
+            "Is the style of the image ink?  ",
+            "Are there exactly 3 spoons?"
+        ]
+    },
+    {
+        "index": 84,
+        "sentence": "A pixel art image features a metallic chair placed to the left. Nearby, there is a lion with a glass texture standing still. To the right of the lion, there are exactly three yellow elephants.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "texture",
+            "number",
+            "color",
+            "style",
+            "texture"
+        ],
+        "skills": [
+            "chair",
+            "lion",
+            "elephant",
+            "metallic",
+            "3",
+            "yellow",
+            "pixel art",
+            "glass"
+        ],
+        "question": [
+            "Does the image contain a chair?",
+            "",
+            "Does the image contain a lion?",
+            "",
+            "Does the image contain an elephant?",
+            "",
+            "Does the chair have a metallic texture?",
+            "",
+            "Are there exactly three elephants?",
+            "",
+            "Are the elephants yellow?",
+            "",
+            "Is the style of the image pixel art?",
+            "",
+            "Does the lion have a glass texture?"
+        ]
+    },
+    {
+        "index": 85,
+        "sentence": "Three huge, circle-shaped necklaces with a glass texture and blue color are positioned in front of a ring in a photorealistic style.",
+        "categories": [
+            "object",
+            "texture",
+            "style",
+            "shape",
+            "size",
+            "number",
+            "color",
+            "spatial"
+        ],
+        "skills": [
+            "necklace",
+            "glass",
+            "photorealism",
+            "circle",
+            "huge",
+            "3",
+            "blue",
+            "in front of"
+        ],
+        "question": [
+            "Does the image contain one or more necklaces?",
+            "Do the necklaces have a glass texture?",
+            "Is the style of the image photorealism?",
+            "Are the necklaces circle shaped?",
+            "Are the necklaces huge in size?",
+            "Are there exactly three necklaces?",
+            "Are the necklaces blue in color?",
+            "Are the necklaces in front of the ring?"
+        ]
+    },
+    {
+        "index": 86,
+        "sentence": "A huge zebra is in front of a triangle-shaped, fluffy chair. The chair is below a table. Another huge zebra is also in front of the same chair.",
+        "categories": [
+            "object",
+            "object",
+            "shape",
+            "size",
+            "number",
+            "texture",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "zebra",
+            "chair",
+            "triangle",
+            "huge",
+            "2",
+            "fluffy",
+            "in front of",
+            "below"
+        ],
+        "question": [
+            "Does the image contain one or more zebras?",
+            "Does the image contain one or more chairs?",
+            "Is the chair triangle shaped?",
+            "Is the zebra huge in size?",
+            "Is the number of zebras exactly 2?",
+            "Does the chair have a fluffy texture?",
+            "Is the zebra in front of the chair, meaning is the zebra positioned nearer to the observer or camera than the chair?",
+            "Is the chair below the table, meaning is the chair positioned lower than the table without touching it?"
+        ]
+    },
+    {
+        "index": 87,
+        "sentence": "The image shows a pink duck with a glass texture positioned on the left side of three huge orange apples.",
+        "categories": [
+            "object",
+            "object",
+            "number",
+            "texture",
+            "size",
+            "color",
+            "color",
+            "spatial"
+        ],
+        "skills": [
+            "duck",
+            "apple",
+            "3",
+            "glass",
+            "huge",
+            "pink",
+            "orange",
+            "left"
+        ],
+        "question": [
+            "Does the image contain one or more ducks?  ",
+            "Does the image contain one or more apples?  ",
+            "Does the image contain exactly 3 apples?  ",
+            "Does the duck have a glass texture?  ",
+            "Is the size of each apple huge?  ",
+            "Is the color of the duck pink?  ",
+            "Is the color of each apple orange?  ",
+            "Is the duck positioned on the left side of the apple?"
+        ]
+    },
+    {
+        "index": 88,
+        "sentence": "A cubism-style image features a metallic-textured woman in front of a lion. Inside a nearby skyscraper, a doll is positioned.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "style",
+            "texture",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "doll",
+            "woman",
+            "skyscraper",
+            "lion",
+            "cubism",
+            "metallic",
+            "inside",
+            "behind"
+        ],
+        "question": [
+            "Does the image contain a doll?  ",
+            "Does the image contain a woman?  ",
+            "Does the image contain a skyscraper?  ",
+            "Does the image contain a lion?  ",
+            "Is the style of the image cubism?  ",
+            "Does the woman have a metallic texture?  ",
+            "Is the doll positioned inside the skyscraper?  ",
+            "Is the lion positioned behind the woman?"
+        ]
+    },
+    {
+        "index": 89,
+        "sentence": "In the image, there are four pizzas. On top of each pizza, there is one orange. The image also includes a cactus, a spoon, and a fork.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "number",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "cactus",
+            "orange",
+            "spoon",
+            "fork",
+            "pizza",
+            "4",
+            "4",
+            "top"
+        ],
+        "question": [
+            "Does the image contain one or more cactuses?",
+            "Does the image contain one or more oranges?",
+            "Does the image contain one or more spoons?",
+            "Does the image contain one or more forks?",
+            "Does the image contain one or more pizzas?",
+            "Does the number of pizzas equal 4?",
+            "Does the number of oranges equal 4?",
+            "Is each orange on top of a pizza, meaning the orange is positioned above or at the highest point of the pizza, touching each other?"
+        ]
+    },
+    {
+        "index": 90,
+        "sentence": "A tiny cow stands next to a tiny, black rectangular laptop, which is placed on the metallic surface of a car.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "color",
+            "texture",
+            "shape",
+            "size",
+            "size"
+        ],
+        "skills": [
+            "cow",
+            "laptop",
+            "car",
+            "black",
+            "metallic",
+            "rectangle",
+            "tiny",
+            "tiny"
+        ],
+        "question": [
+            "Does the image contain a cow?  ",
+            "Does the image contain a laptop?  ",
+            "Does the image contain a car?  ",
+            "Is the laptop black?  ",
+            "Does the car have a metallic texture?  ",
+            "Is the laptop rectangular shaped?  ",
+            "Is the cow tiny?  ",
+            "Is the laptop tiny?  "
+        ]
+    },
+    {
+        "index": 91,
+        "sentence": "A huge yellow table with a glass texture is in the image. On top of the table, there is a tiny heart-shaped elephant with a metallic texture.",
+        "categories": [
+            "object",
+            "object",
+            "size",
+            "shape",
+            "size",
+            "texture",
+            "color",
+            "texture"
+        ],
+        "skills": [
+            "table",
+            "elephant",
+            "huge",
+            "heart",
+            "tiny",
+            "glass",
+            "yellow",
+            "metallic"
+        ],
+        "question": [
+            "Does the image contain a table?  ",
+            "Does the image contain an elephant?  ",
+            "Is the table huge?  ",
+            "Is the elephant heart-shaped?  ",
+            "Is the elephant tiny?  ",
+            "Does the table have a glass texture?  ",
+            "Is the color of the table yellow?  ",
+            "Does the elephant have a metallic texture?"
+        ]
+    },
+    {
+        "index": 92,
+        "sentence": "Three brown dolls are standing upright on a textured surface, surrounded by four red metallic forks. The arrangement and background evoke a surrealist style.",
+        "categories": [
+            "object",
+            "object",
+            "style",
+            "color",
+            "texture",
+            "number",
+            "number",
+            "color"
+        ],
+        "skills": [
+            "fork",
+            "doll",
+            "surrealism",
+            "brown",
+            "metallic",
+            "3",
+            "4",
+            "red"
+        ],
+        "question": [
+            "Does the image contain forks?",
+            "Does the image contain dolls?",
+            "Is the style of the image surrealism?",
+            "Is the color of the dolls brown?",
+            "Do the forks have a metallic texture?",
+            "Is the number of dolls exactly 3?",
+            "Is the number of forks exactly 4?",
+            "Is the color of the forks red?"
+        ]
+    },
+    {
+        "index": 93,
+        "sentence": "A green cow is standing in the background. In front of a table, there is an apple positioned nearer to the observer. Above the table, a textbook is floating without touching it. A spoon is placed on the table.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "color",
+            "spatial",
+            "spatial"
+        ],
+        "skills": [
+            "cow",
+            "apple",
+            "table",
+            "spoon",
+            "textbook",
+            "green",
+            "in front of",
+            "above"
+        ],
+        "question": [
+            "Does the image contain one or more cows?  ",
+            "Does the image contain one or more apples?  ",
+            "Does the image contain one or more tables?  ",
+            "Does the image contain one or more spoons?  ",
+            "Does the image contain one or more textbooks?  ",
+            "Is the color of the cow green?  ",
+            "Is the apple in front of the table?  ",
+            "Is the textbook above the table?"
+        ]
+    },
+    {
+        "index": 94,
+        "sentence": "A huge gray novel is placed on a flat surface. Two tiny, fluffy red giraffes stand next to the novel.",
+        "categories": [
+            "object",
+            "object",
+            "number",
+            "size",
+            "size",
+            "color",
+            "color",
+            "texture"
+        ],
+        "skills": [
+            "novel",
+            "giraffe",
+            "2",
+            "huge",
+            "tiny",
+            "gray",
+            "red",
+            "fluffy"
+        ],
+        "question": [
+            "Does the image contain one or more novels?  ",
+            "Does the image contain one or more giraffes?  ",
+            "Are there exactly 2 giraffes in the image?  ",
+            "Is the novel huge in size?  ",
+            "Are the giraffes tiny in size?  ",
+            "Is the color of the novel gray?  ",
+            "Is the color of the giraffes red?  ",
+            "Do the giraffes have a fluffy texture?"
+        ]
+    },
+    {
+        "index": 95,
+        "sentence": "A surreal graffiti-style image displays a tiny, white, triangle-shaped smartphone lying next to a fork. In the background, a giraffe stands against the colorful, abstract backdrop.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "style",
+            "style",
+            "color",
+            "shape",
+            "size"
+        ],
+        "skills": [
+            "smartphone",
+            "fork",
+            "giraffe",
+            "graffiti",
+            "surrealism",
+            "white",
+            "triangle",
+            "tiny"
+        ],
+        "question": [
+            "Does the image contain a smartphone?  ",
+            "Does the image contain a fork?  ",
+            "Does the image contain a giraffe?  ",
+            "Is the style of the image graffiti?  ",
+            "Is the style of the image surrealism?  ",
+            "Is the color of the smartphone white?  ",
+            "Is the smartphone triangle-shaped?  ",
+            "Is the smartphone tiny?"
+        ]
+    },
+    {
+        "index": 96,
+        "sentence": "The image is in pixel art style and contains exactly four huge, heart-shaped tables. Each table is purple and has a fluffy texture. Positioned lower than each table, without touching them, is a chair.",
+        "categories": [
+            "object",
+            "color",
+            "style",
+            "shape",
+            "size",
+            "texture",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "table",
+            "purple",
+            "pixel art",
+            "heart",
+            "huge",
+            "fluffy",
+            "4",
+            "below"
+        ],
+        "question": [
+            "Does the image contain tables?",
+            "Are the tables purple?",
+            "Is the style of the image pixel art?",
+            "Are the tables heart-shaped?",
+            "Are the tables huge?",
+            "Do the tables have a fluffy texture?",
+            "Are there exactly four tables?",
+            "Is the chair positioned lower than the tables without touching them?"
+        ]
+    },
+    {
+        "index": 97,
+        "sentence": "The image is a cartoon-style scene featuring three huge trucks. On top of each truck, there is a tiny pig with a metallic texture.",
+        "categories": [
+            "object",
+            "object",
+            "style",
+            "texture",
+            "size",
+            "number",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "pig",
+            "truck",
+            "cartoon",
+            "metallic",
+            "huge",
+            "3",
+            "tiny",
+            "top"
+        ],
+        "question": [
+            "Does the image contain one or more pigs?",
+            "Does the image contain one or more trucks?",
+            "Is the style of the image cartoon?",
+            "Does the pig have a metallic texture?",
+            "Is the truck huge in size?",
+            "Is the number of trucks exactly 3?",
+            "Is the pig tiny in size?",
+            "Is the pig on top of the truck, touching each other?"
+        ]
+    },
+    {
+        "index": 98,
+        "sentence": "The image shows a huge apple in the center with a corgi positioned on the right side of the apple. There is a heart-shaped pine tree in the background. A pizza and a novel are also visible in the scene.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "object",
+            "object",
+            "shape",
+            "size",
+            "spatial"
+        ],
+        "skills": [
+            "apple",
+            "pine tree",
+            "pizza",
+            "novel",
+            "corgi",
+            "heart",
+            "huge",
+            "right"
+        ],
+        "question": [
+            "Does the image contain an apple?",
+            "",
+            "Does the image contain a pine tree?",
+            "",
+            "Does the image contain a pizza?",
+            "",
+            "Does the image contain a novel?",
+            "",
+            "Does the image contain a corgi?",
+            "",
+            "Is the pine tree heart-shaped?",
+            "",
+            "Is the apple huge?",
+            "",
+            "Is the corgi positioned on the right side of the apple?"
+        ]
+    },
+    {
+        "index": 99,
+        "sentence": "A huge pine tree stands outside of a heart-shaped teddy bear and a sunflower. The image is drawn in an abstract, expressionist style.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "style",
+            "shape",
+            "size",
+            "style",
+            "spatial"
+        ],
+        "skills": [
+            "pine tree",
+            "teddy bear",
+            "sunflower",
+            "expressionism",
+            "heart",
+            "huge",
+            "abstract",
+            "outside"
+        ],
+        "question": [
+            "Does the image contain a pine tree?  ",
+            "Does the image contain a teddy bear?  ",
+            "Does the image contain a sunflower?  ",
+            "Is the style of the image expressionism?  ",
+            "Is the teddy bear heart-shaped?  ",
+            "Is the pine tree huge?  ",
+            "Is the style of the image abstract?  ",
+            "Is the pine tree outside of the teddy bear?"
+        ]
+    },
+    {
+        "index": 100,
+        "sentence": "Two women are standing in the background. In front of them is a fluffy corgi, closer to the observer or camera. Two circle-shaped roses are also present in the image.",
+        "categories": [
+            "object",
+            "object",
+            "object",
+            "texture",
+            "shape",
+            "number",
+            "number",
+            "spatial"
+        ],
+        "skills": [
+            "corgi",
+            "rose",
+            "woman",
+            "fluffy",
+            "circle",
+            "2",
+            "2",
+            "in front of"
+        ],
+        "question": [
+            "Does the image contain a corgi?  ",
+            "Does the image contain roses?  ",
+            "Does the image contain women?  ",
+            "Does the corgi have a fluffy texture?  ",
+            "Is the rose circle-shaped?  ",
+            "Are there exactly 2 women?  ",
+            "Are there exactly 2 roses?  ",
+            "Is the corgi positioned in front of the women?"
+        ]
+    }
+]

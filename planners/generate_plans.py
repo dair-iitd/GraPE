@@ -1,8 +1,6 @@
 from openai import OpenAI
 import base64
 import os
-# os.environ['TRANSFORMERS_OFFLINE']='1'
-# os.environ['HF_HOME'] = '/scratch/scai/phd/aiz228170/qwen-vl-72b'
 
 import requests
 import json
@@ -174,7 +172,7 @@ class PLAN:
 
     def setup_qwen(self, model_id):
         model = Qwen2VLForConditionalGeneration.from_pretrained(
-            model_id, torch_dtype="auto", device_map="auto", cache_dir="/scratch/scai/phd/aiz228170/qwen-vl-72b"
+            model_id, torch_dtype="auto", device_map="auto",
         )
 
         processor = AutoProcessor.from_pretrained(model_id)

@@ -34,7 +34,6 @@ class Editor:
         self.setup_model(ckpt_path)
 
     def setup_model(self, ckpt_path):
-        ROOT_DIR = os.path.join(ROOT, "ckpt")
         CKPT_PATH = ckpt_path
         CONFIG_PATH = os.path.join(ROOT, 'configs/pixart_sigma_config/editing_at_512.py')
         PIPELINE_LOAD_PATH = os.path.join(ROOT, "output/pretrained_models/pixart_sigma_sdxlvae_T5_diffusers")
@@ -116,8 +115,7 @@ class Editor:
         image = Image.fromarray(samples)
         return image
 
+
 if __name__ == "__main__":
-    ImgEditor = Editor("/home/scai/phd/aiz228170/scratch/Generate-then-Edit/PixArt-sigma/output/aurora_ft_ep_40_seed_real_only_40_more_from_ep_40_bs_256_grad_clip_0_5_ip2p_concat/")
-
-    edited_image = ImgEditor("Image", "prompt")
-
+    ImgEditor = Editor("<ckpt path>")
+    edited_image = ImgEditor.edit_image("Image", "prompt")

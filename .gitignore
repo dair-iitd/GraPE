@@ -7,3 +7,5 @@ TEST/
 *.pyd
 
 editors/PixEdit
+editors/OmniGen
+editors/instruct-pix2pix
