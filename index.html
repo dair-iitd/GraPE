@@ -1,83 +1,381 @@
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>DreamBooth</title>
-<link href="./DreamBooth_files/style.css" rel="stylesheet">
-<script type="text/javascript" src="./DreamBooth_files/jquery.mlens-1.0.min.js"></script> 
-<script type="text/javascript" src="./DreamBooth_files/jquery.js"></script>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="GraPE: A Generate-Plan-Edit Framework for Compositional T2I Synthesis">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GraPE: A Generate-Plan-Edit Framework for Compositional T2I Synthesis</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./assets/grape2.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
 </head>
-
 <body>
-<div class="content">
-  <!-- <h1><strong>GraPE: A Generate-Plan-Edit Framework for Compositional T2I Synthesis</strong></h1> -->
-  <h1 style="display: flex; align-items: vertical; gap: 0px;">
-    <img src="DreamBooth_files/grape2.png" alt="Logo" style="height: 40px; width: 40px;">
-    <strong>GraPE: A Generate-Plan-Edit Framework for Compositional T2I Synthesis</strong>
-</h1>
-  <p id="authors"><span><a href="https://alphacoder01.github.io/"></a></span><a href="https://alphacoder01.github.io/">Ashish Goswami</a><sup>1</sup> <a href="https://openreview.net/profile?id=~Satyam_Modi1">Satyam Modi</a><sup>1*</sup> <a href="https://openreview.net/profile?id=~Santhosh_Rishi_Deshineni1">Santhosh Rishi Deshineni</a><sup>1*</sup> <br><a href="https://harmandotpy.github.io/">Harman Singh</a><sup>2</sup> <a href="https://sites.google.com/view/prathosh">Prathosh A. P</a><sup>3</sup> <a href="https://www.cse.iitd.ac.in/~parags/index.html">Parag Singla</a><sup>1</sup><br>
-    <br>
-  <span style="font-size: 24px"><sup>1</sup> IIT Delhi&emsp;<sup>2</sup> Google DeepMind, India&emsp;<sup>3</sup> IISc Bangalore
-  </span></p>
-  <br>
-  <img src="./DreamBooth_files/Teaser_updated_with_new.png" class="teaser-gif" style="width:50%;"><br>
-  <h3 style="text-align:center"><em>ONE-Liner</em></h3>
-    <font size="+2">
-          <p style="text-align: center;">
-            <a href="" target="_blank">[Paper]</a> &nbsp;&nbsp;&nbsp;&nbsp;
-	          <a href="https://github.com/dair-iitd/GraPE" target="_blank">[Github]</a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="DreamBooth_files/bibtex.txt" target="_blank">[BibTeX]</a>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://aclanthology.org/2023.emnlp-main.181/">
+            NeuroSIM
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">GraPE: A Generate-Plan-Edit Framework for Compositional T2I Synthesis</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://alphacoder01.github.io/">Ashish Goswami</a><sup>1</sup></span>,
+            <span class="author-block">
+              <a href="https://openreview.net/profile?id=~Satyam_Modi1">Satyam Modi</a><sup>1*</sup></span>,             
+            <span class="author-block">
+              <a href="https://openreview.net/profile?id=~Santhosh_Rishi_Deshineni1">Santhosh Rishi Deshineni</a><sup>1*</sup></span>,<br>
+            </span>
+            <span class="author-block">
+              <a href="https://harmandotpy.github.io/">Harman Singh</a><sup>1</sup></span>,
+            </span>
+            <span class="author-block">
+              <a href="https://sites.google.com/view/prathosh">Prathosh A. P</a><sup>2</sup></span>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.cse.iitd.ac.in/~parags/index.html">Parag Singla</a><sup>1</sup></span>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>IIT-Delhi,</span>
+            <span class="author-block"><sup>2</sup>IISc Bangalore</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/dair-iitd/GraPE"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://github.com/dair-iitd/PixEdit"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>PixEdit</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teaser image-->
+<section class="hero teaser" >
+  <div class="hero-body">
+    <div class="container is-centered">
+      <h2 class="subtitle has-text-centered">
+        GraPE is a unifying and generic framework for improving semantic alignemt of T2I models<br> by post-hoc alignment of generated images via iterating editing.
+      <img src="assets/Teaser_updated_with_new.png" alt="teaser" style="display: block; margin-left: auto; margin-right: auto; margin-top: 50px;margin-bottom: 5px;width: 50%; height: auto;">      <h2 class="subtitle has-text-centered">
+        &nbsp;
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
+
+
+
+
+<section class="section">
+
+  <div class="container is-max-desktop">
+
+    <!-- Animation. -->
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">Abstract</h2>
+
+        <!-- Interpolating. -->
+        <!-- <h3 class="title is-4">Interpolating states</h3> -->
+        <div class="content has-text-justified">
+          <p>Text-to-image (T2I) generation has seen significant progress with diffusion models, enabling generation of photo-realistic images from text prompts. Despite this progress, existing methods still face challenges in following complex text prompts, especially those requiring compositional and multi-step reasoning. Given such complex instructions, SOTA models often make mistakes in faithfully modeling object attributes, and relationships among them.</p>
+          <p>In this work, we present an alternate paradigm for T2I synthesis, decomposing the task of complex multi-step generation into three steps, (a) <em>Generate</em>: we first generate an image using existing diffusion models (b) <em>Plan</em>: we make use of Multi-Modal LLMs (MLLMs) to identify the mistakes in the generated image expressed in terms of individual objects and their properties, and produce a sequence of corrective steps required in the form of an <em>edit-plan</em>. (c) <em>Edit</em>: we make use of an existing text-guided image editing models to sequentially execute our edit-plan over the generated image to get the desired image which is faithful to the original instruction. Our approach derives its strength from the fact that it is modular in nature, is training free, and can be applied over any combination of image generation and editing models. As an added contribution, we also develop a model capable of compositional editing, which further helps improve the overall accuracy of our proposed approach. Our method flexibly trades inference time compute with performance on compositional text prompts. We perform extensive experimental evaluation across 3 benchmarks and 10 T2I models including DALLE-3 and the latest -- SD-3.5-Large. Our approach not only improves the performance of the SOTA models, by upto 3 points, it also reduces the performance gap between weaker and stronger models.</p>
+  
+        </div>
+
+        <br/>
+      </div>
+
+    
+    </div>
+
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">GraPE Framework</h2>
+
+        <!-- Interpolating. -->
+  
+        <div class="content has-text-justified">
+          <p>
+            Let <strong>T</strong> be a
+            textual instruction. In the task of T2I synthesis, given an
+            instruction <strong>T</strong>, our goal is to be able to generate an image
+            <strong>I<sub>o</sub></strong> which satisfies various requirements expressed via the
+            instruction <strong>T</strong>. While most existing techniques take the ap-
+            proach of directly generating <strong>I<sub>o</sub></strong> via <strong>T</strong> , they often result in
+            various kinds of inaccuracies, due to the complexity of the
+            instruction. We are motivated by the observation that the
+            task of T2I synthesis can be broken down into simpler steps
+            of first generation, followed by identification of errors, and
+            a sequence of corrective edits, each of which is simple and
+            object specific in nature. Accordingly, we propose the fol-
+            lowing generation pipeline
           </p>
-    </font>
-</div>
-<div class="content">
-  <h2 align="center"><strong>Abstract</strong></h2>
-  <p>Text-to-image (T2I) generation has seen significant progress with diffusion models, enabling generation of photo-realistic images from text prompts. Despite this progress, existing methods still face challenges in following complex text prompts, especially those requiring compositional and multi-step reasoning. Given such complex instructions, SOTA models often make mistakes in faithfully modeling object attributes, and relationships among them.</p>
-    <p>In this work, we present an alternate paradigm for T2I synthesis, decomposing the task of complex multi-step generation into three steps, (a) <em>Generate</em>: we first generate an image using existing diffusion models (b) <em>Plan</em>: we make use of Multi-Modal LLMs (MLLMs) to identify the mistakes in the generated image expressed in terms of individual objects and their properties, and produce a sequence of corrective steps required in the form of an <em>edit-plan</em>. (c) <em>Edit</em>: we make use of an existing text-guided image editing models to sequentially execute our edit-plan over the generated image to get the desired image which is faithful to the original instruction. Our approach derives its strength from the fact that it is modular in nature, is training free, and can be applied over any combination of image generation and editing models. As an added contribution, we also develop a model capable of compositional editing, which further helps improve the overall accuracy of our proposed approach. Our method flexibly trades inference time compute with performance on compositional text prompts. We perform extensive experimental evaluation across 3 benchmarks and 10 T2I models including DALLE-3 and the latest -- SD-3.5-Large. Our approach not only improves the performance of the SOTA models, by upto 3 points, it also reduces the performance gap between weaker and stronger models.</p>
-</div>
+        </div>
+        <div class="content has-text-centered">
+          <div style="display: flex; justify-content: space-between;">
+            <img src="./assets/cvpr_pipeline_15_nov.drawio.png" alt="Data Construction" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 30px;margin-top: 30px; width: 100%; height: auto;">
+          </div>
+          <div>
+            Proposed GraPE framework, a given text prompt is used to generate an initial image from T2I model, Ig which is then fed into
+            a MLLM based planner along with the text prompt which identifies the objects that are misaligned in the image and outputs a set of edit
+            plans guided by few-shot prompting. The plans are executed as a series of edits over the initial image to produce the final image
+          </div>
+        </div>
 
-<div class="content">
-  <h2 align="center"><strong>GraPE Framework</strong></h2>
-  <p> Our method takes as input a few images (typically 3-5 images suffice, based on our experiments) of a subject (e.g., a specific dog) and the corresponding class name (e.g. "dog"), and returns a fine-tuned/"personalized'' text-to-image model that encodes a unique identifier that refers to the subject. Then, at inference, we can implant the unique identifier in different sentences to synthesize the subjects in difference contexts.</p>
-  <!-- <br> -->
-  <img class="summary-img" src="DreamBooth_files/cvpr_pipeline_15_nov.drawio.png" style="width:80%;"> <br>
-  <p>Given ~3-5 images of a subject we fine tune a text-to-image diffusion in two steps: (a) fine tuning the low-resolution text-to-image model with the input images paired with a text prompt containing a unique identifier and the name of the class the subject belongs to (e.g., "A photo of a [T] dog”), in parallel, we apply a class-specific prior preservation loss, which leverages the semantic prior that the model has on the class and encourages it to generate diverse instances belong to the subject's class by injecting the class name in the text prompt (e.g., "A photo of a dog”). (b) fine-tuning the super resolution components with pairs of low-resolution and high-resolution images taken from our input images set, which enables us to maintain high-fidelity to small details of the subject.</p>
-  <br>
-</div>
-<div class="content">
-  <h2 align="center"><strong>Results</strong></h2>
-  <p>Results for re-contextualization of a bag and vase subject instances. By finetuning a model using our method we are able to generate different images of the a subject instance in different environments, with high preservation of subject details and realistic interaction between the scene and the subject. We display the conditioning prompts below each image. </p>
-<img class="summary-img" src="./DreamBooth_files/examples.png" style="width:80%;">
-<br>
-<br>
-<img class="summary-img" src="./DreamBooth_files/graphs_t2i_flickr.png" style="width:100%;">
-</div>
-<div class="content">
-  <h2 align="center"><strong>Numbers</strong></h2>
-  <p>Original artistic renditions of our subject dog in the style of famous painters. We remark that many of the generated poses were not seen in the training set, such as the Van Gogh and Warhol rendition. We also note that some renditions seem to have novel composition and faithfully imitate the style of the painter - even suggesting some sort of creativity (extrapolation given previous knowledge).</p>
-  <br>
-  <img class="summary-img" src="./DreamBooth_files/concept_mix_table.png" style="width:100%;"> <br>
-</div>
-<div class="content">
-  <h2 align="center"><strong>Failure Cases</strong></h2>
-  <p>Our technique can synthesized images with specified viewpoints for a subject cat (left to right: top, bottom, side and back views). Note that the generated poses are  different from the input poses, and the background changes in a realistic manner given a pose change. We also highlight the preservation of complex fur patterns on the subject cat's forehead.</p>
-  <br>
-  <img class="summary-img" src="./DreamBooth_files/failure_cases.png" style="width:80%;"> <br>
-</div>
+        <br/>
 
-<div class="content">
-  <h2>BibTex</h2>
-  <code> @article{ruiz2022dreambooth,<br>
-  &nbsp;&nbsp;title={DreamBooth: Fine Tuning Text-to-image Diffusion Models for Subject-Driven Generation},<br>
-  &nbsp;&nbsp;author={Ruiz, Nataniel and Li, Yuanzhen and Jampani, Varun and Pritch, Yael and Rubinstein, Michael and Aberman, Kfir},<br>
-  &nbsp;&nbsp;booktitle={arXiv preprint arxiv:2208.12242},<br>
-  &nbsp;&nbsp;year={2022}<br>
-  } </code> 
+
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">Results</h2>
+
+        <!-- Interpolating. -->
+  
+        <div class="content has-text-justified">
+          <p>
+            Iterative results by applying GraPE. on images generated by SD3.5 and SDXL, these images are edited via the proposed PixEdit
+editing model.           
+          </p>
+
+          </div>
+          <div class="content has-text-centered">
+            <div style="display: flex; justify-content: space-between;">
+              <img src="assets/examples.png" alt="Method" style="display: block; margin-bottom: 50px; margin-left: auto; margin-right: auto; width: 95%; height: auto;">
+            </div>
+          </div>
+
+          <!-- <div class="content has-text-centered">
+            <div style="display: flex; justify-content: space-between;">
+              <img src="assets/graphs_t2i_flickr.png" alt="Method" style="display: block; margin-left: auto; margin-right: auto; width: 75%; height: auto;">
+            </div>
+          </div> -->
+
+      </div>
+    </div>
+
+
+    <!-- <div class="columns is-centered"> -->
+      <!-- <div class="column is-full-width"> -->
+        <!-- <h2 class="title is-3 has-text-centered">Numbers</h2> -->
+
+        <!-- Interpolating. -->
+        <!-- <div class="content has-text-justified"> -->
+
+          <!-- </div> -->
+          <!-- <div class="content has-text-centered">
+            <div style="display: flex; justify-content: space-between;">
+              <img src="assets/concept_mix_table.png" alt="Qualitative Result" style="display: block; margin-left: auto; margin-right: auto; width: 75%; height: auto;">
+            </div>
+            <div>
+              <strong>Qualitative comparison on AdvancedEdit.</strong> InsightEdit shows superior instruction following and background consistency capability.            </div>
+          </div> -->
+
+      <!-- </div> -->
+    <!-- </div> -->
+
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">Comparison with PixEdit</h2>
+
+        <!-- Interpolating. -->
+        <div class="content has-text-justified">
+
+          </div>
+          <div class="content has-text-centered">
+            <div style="display: flex; justify-content: space-between;">
+              <img src="assets/Example on site.drawio.png" alt="Qualitative Result" style="display: block; margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 50px; width: 95%; height: auto;">
+            </div>
+            <div>
+              <strong>Qualitative comparison of Various Image Editing models.</strong>  PixEdit shows good performance in semantically aligning the image with text-prompt.            </div>
+          </div>
+
+      </div>
+    </div>
+
+
+        <br/>
+        <!--/ Interpolating. -->
+
+        <!-- Re-rendering. -->
+        <!--/ Re-rendering. -->
+
+      </div>
+    </div>
 </div>
-<div class="content" id="acknowledgements">
-  <p><strong>Acknowledgements</strong>:
-    <br>
-    Recycling a familiar <a href="https://dreambooth.github.io/">template</a> ;) 
-  </p>
 </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code></code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/alphacoder01" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
