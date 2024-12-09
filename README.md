@@ -1,5 +1,5 @@
 # GraPE : A Generate Plan Edit Framework for Compositional T2I Symthesis
-### [Project Page]() | [Paper]()
+### [Project Page](https://dair-iitd.github.io/GraPE/) | [Paper]()
 
 
 ## Installation
