@@ -1,5 +1,5 @@
 # GraPE : A Generate Plan Edit Framework for Compositional T2I Symthesis
-### [Project Page](https://dair-iitd.github.io/GraPE/) | [Paper]()
+### [Project Page](https://dair-iitd.github.io/GraPE/) | [Paper](https://arxiv.org/abs/2412.06089)
 
 
 ## Installation
@@ -22,5 +22,13 @@ The prompts used in `T2I-Compbench`, `Flickr-Bench` and `ConceptMix` are placed 
 ## Citation
 If you find this repository useful, please consider giving a star ⭐ and citation.
 ```text
-FILL
+@misc{goswami2024grapegenerateplaneditframeworkcompositional,
+      title={GraPE: A Generate-Plan-Edit Framework for Compositional T2I Synthesis}, 
+      author={Ashish Goswami and Satyam Kumar Modi and Santhosh Rishi Deshineni and Harman Singh and Prathosh A. P and Parag Singla},
+      year={2024},
+      eprint={2412.06089},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.06089}, 
+}
 ```
